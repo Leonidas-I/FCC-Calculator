@@ -1,0 +1,94 @@
+/* xem them cac cach import font 
+https://www.onlinewebfonts.com/download/1b40984d7a10bcae004877dc48f4cc8f */
+/*
+@font-face {
+  font-family: "Digital";
+  src:  url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.eot");
+  src:  url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.eot?#iefix") format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.woff2") format("woff2"),
+        url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.woff") format("woff"),
+        url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.ttf") format("truetype"),
+        url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.svg#Digital, serif, monospace") format("svg");
+}
+*/
+@import url(https://db.onlinewebfonts.com/c/1b40984d7a10bcae004877dc48f4cc8f?family=Digital);
+
+$numColor: silver;
+
+
+body {
+  background: cyan;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.calculator {
+  position: relative;
+  border: 5px solid maroon;
+  background: gold;
+  padding: 5px;
+  width: 300px;
+}
+
+.equationScreen {
+  min-height: 1.5em;
+  font-size: 1.5em;
+  color: coral;
+  text-align: left;
+  font-family: Digital, monospace, serif;
+  line-height: 1.2;
+  word-wrap: break-word;
+}
+
+.calScreen {
+  min-height: 2em;
+  font-size: 2em;
+  color: indigo;
+  text-align: right;
+  font-family: Digital, monospace, serif;
+  line-height: 1.2;
+  word-wrap: break-word;
+}
+
+button {
+  position: relative;
+  height: 75px;
+  width: 75px;
+  border: none;
+  background: $numColor;
+  font-family: Digital, monospace, serif;
+  font-size: 1.5em;
+  color: fuchsia;
+  outline: 2px solid fuchsia;
+  &:hover {
+    outline: 3px solid white;
+    color: white;
+    z-index: 1;
+    cursor: pointer;
+  }
+}
+
+footer {
+  text-align: center;
+  font-size: 2.5rem;
+  color: orangered;
+  font-family: Digital, monospace, serif;
+  margin-top: 10px;
+  &:hover {
+    color: white;
+    transition: color 2s ease 0.5s;
+    cursor: crosshair;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #project {
+    transform: scale(1.4);
+  }
+}
