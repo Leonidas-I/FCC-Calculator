@@ -17,7 +17,7 @@ $numColor: silver;
 
 
 body {
-  background: cyan;
+  background: teal;
 }
 
 .container {
@@ -31,6 +31,7 @@ body {
 .calculator {
   position: relative;
   border: 5px solid maroon;
+  border-radius: 10px;
   background: gold;
   padding: 5px;
   width: 300px;
