@@ -17,7 +17,7 @@ $numColor: silver;
 
 
 body {
-  background: teal;
+  background: aquamarine;
 }
 
 .container {
@@ -71,24 +71,25 @@ button {
     outline: 3px solid white;
     color: white;
     z-index: 1;
-    cursor: pointer;
+    cursor: crosshair;
   }
 }
 
 footer {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2em;
   color: orangered;
   font-family: Digital, monospace, serif;
-  margin-top: 10px;
+  margin-top: 30px;
   &:hover {
     color: white;
     transition: color 2s ease 0.5s;
-    cursor: crosshair;
+    cursor: not-allowed;
   }
+  a { text-decoration: none;}
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 720px) {
   #project {
     transform: scale(1.4);
   }

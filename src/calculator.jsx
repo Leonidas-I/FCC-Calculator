@@ -172,7 +172,7 @@ class Calculator extends React.Component {
                   init={this.handleInit}
                   del={this.handleDel} />
         </div>
-        <footer>Code by Leonidas-I aka Tri Phan</footer>
+        <footer>Code by <a href='https://github.com/Leonidas-I' target='_blank'>Leonidas-I</a> aka Tri Phan</footer>
       </div>
     )
   }

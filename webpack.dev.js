@@ -5,6 +5,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = merge(common, {
   mode: "development",
+  devtool: 'inline-cheap-module-source-map',
   output: {
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist")
@@ -20,8 +21,29 @@ module.exports = merge(common, {
         test: /\.scss$/,
         use: [
           "style-loader",
-          "css-loader",
-          "sass-loader"
+          {
+            loader: 'css-loader',
+            options: {
+              sourceMap: true
+            }
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              sourceMap: true,
+              plugins: function () {
+                return [
+                  require('autoprefixer')
+                ];
+              }
+            }
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              sourceMap: true
+            }
+          }
         ]
       }
     ]
