@@ -4,15 +4,15 @@
   "warnings": [
   ],
   "version": "4.41.2",
-  "hash": "da38a5849ee4206ffaa6",
-  "time": 13292,
-  "builtAt": 1574568416407,
+  "hash": "34707972b20bf7360f1f",
+  "time": 15570,
+  "builtAt": 1574608096603,
   "publicPath": "",
   "outputPath": "/home/arcolinux/leonidas-project/FCC-Calculator/dist",
   "assetsByChunkName": {
     "main": [
       "main.0f95c066be04d3a2241f.css",
-      "main.c7cf64053602f7189602.bundle.js"
+      "main.b9ac0b5fd47aa6436bd7.bundle.js"
     ],
     "vendor": "vendor.7392763c14ec7f797e87.bundle.js"
   },
@@ -43,8 +43,8 @@
       "emitted": true
     },
     {
-      "name": "main.c7cf64053602f7189602.bundle.js",
-      "size": 16624,
+      "name": "main.b9ac0b5fd47aa6436bd7.bundle.js",
+      "size": 16903,
       "chunks": [
         0
       ],
@@ -81,7 +81,7 @@
       "assets": [
         "vendor.7392763c14ec7f797e87.bundle.js",
         "main.0f95c066be04d3a2241f.css",
-        "main.c7cf64053602f7189602.bundle.js"
+        "main.b9ac0b5fd47aa6436bd7.bundle.js"
       ],
       "children": {
       },
@@ -98,7 +98,7 @@
       "assets": [
         "vendor.7392763c14ec7f797e87.bundle.js",
         "main.0f95c066be04d3a2241f.css",
-        "main.c7cf64053602f7189602.bundle.js"
+        "main.b9ac0b5fd47aa6436bd7.bundle.js"
       ],
       "children": {
       },
@@ -112,15 +112,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 22765,
+      "size": 23183,
       "names": [
         "main"
       ],
       "files": [
         "main.0f95c066be04d3a2241f.css",
-        "main.c7cf64053602f7189602.bundle.js"
+        "main.b9ac0b5fd47aa6436bd7.bundle.js"
       ],
-      "hash": "c6c0f7ebba7d1db9bdff",
+      "hash": "eba1e5b237999664e99b",
       "siblings": [
         1
       ],
@@ -145,9 +145,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react/cjs/react.production.min.js",
-          "issuerId": 6,
-          "issuerName": "./node_modules/react/cjs/react.production.min.js",
+          "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuerId": 7,
+          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
           "issuerPath": [
             {
               "id": 5,
@@ -155,14 +155,14 @@
               "name": "./src/index.jsx"
             },
             {
-              "id": 0,
-              "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react/index.js",
-              "name": "./node_modules/react/index.js"
+              "id": 2,
+              "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react-dom/index.js",
+              "name": "./node_modules/react-dom/index.js"
             },
             {
-              "id": 6,
-              "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react/cjs/react.production.min.js",
-              "name": "./node_modules/react/cjs/react.production.min.js"
+              "id": 7,
+              "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
             }
           ],
           "failed": false,
@@ -204,7 +204,7 @@
           "name": "./src/calculator.jsx",
           "index": 11,
           "index2": 11,
-          "size": 8075,
+          "size": 8493,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -257,7 +257,7 @@
             "ModuleConcatenation bailout: Module uses eval()"
           ],
           "depth": 1,
-          "source": "function _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nimport React from 'react';\nimport Button from './button.jsx'; //should overview RegEx \\ ? . * +\n\nvar isOperators = /[^.0-9]/,\n    endByOperators = /[^.0-9]$/;\n/*\ncurrentValue: luu gia tri vua nhap (so, chuoi so, dau)\nallInput: luu ALL nhung gi da nhap (kieu cong thuc hien ra tren man hinh)\nformula: luu ket qua sau khi nhan '=' va de luu ALL ngoai tru dau o cuoi cong thuc (handleOperators)\nevaluated: kieu flag xem coi allInput da duoc tinh toan chua\n*/\n\nvar Calculator =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(Calculator, _React$Component);\n\n  function Calculator(props) {\n    var _this;\n\n    _classCallCheck(this, Calculator);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(Calculator).call(this, props));\n    _this.state = {\n      currentValue: '0',\n      allInput: '',\n      formula: '0',\n      evaluated: false\n    };\n    _this.handleNumbers = _this.handleNumbers.bind(_assertThisInitialized(_this));\n    _this.handleDecimal = _this.handleDecimal.bind(_assertThisInitialized(_this));\n    _this.handleOperators = _this.handleOperators.bind(_assertThisInitialized(_this));\n    _this.handleEquals = _this.handleEquals.bind(_assertThisInitialized(_this));\n    _this.handleInit = _this.handleInit.bind(_assertThisInitialized(_this));\n    _this.handleDel = _this.handleDel.bind(_assertThisInitialized(_this));\n    return _this;\n  }\n\n  _createClass(Calculator, [{\n    key: \"handleNumbers\",\n    value: function handleNumbers(e) {\n      if (this.state.evaluated) {\n        this.setState({\n          currentValue: e.target.value,\n          allInput: e.target.value !== '0' ? e.target.value : '',\n          evaluated: false\n        });\n      } else {\n        this.setState({\n          currentValue: isOperators.test(this.state.currentValue) || this.state.currentValue === '0' ? e.target.value : this.state.currentValue + e.target.value,\n          allInput: this.state.currentValue === '0' && e.target.value === '0' ? this.state.allInput : /([^.0-9]0)$/.test(this.state.allInput) ? this.state.allInput.slice(0, -1) + e.target.value : this.state.allInput + e.target.value\n        });\n      }\n    }\n  }, {\n    key: \"handleDecimal\",\n    value: function handleDecimal() {\n      if (this.state.evaluated) {\n        this.setState({\n          currentValue: '0.',\n          allInput: '0.',\n          evaluated: false\n        });\n      } else if (endByOperators.test(this.state.allInput) || this.state.currentValue === '0' && this.state.allInput === '') {\n        this.setState({\n          currentValue: '0.',\n          allInput: this.state.allInput + '0.'\n        });\n      } else if (this.state.currentValue.includes('.') || /[^.0-9]?\\d+\\.\\d*$/.test(this.state.allInput)) {\n        this.setState({\n          currentValue: this.state.currentValue,\n          allInput: this.state.allInput\n        });\n      } else {\n        this.setState({\n          currentValue: this.state.currentValue + '.',\n          allInput: this.state.allInput + '.'\n        });\n      }\n    }\n  }, {\n    key: \"handleOperators\",\n    value: function handleOperators(e) {\n      this.setState({\n        currentValue: e.target.value\n      });\n\n      if (this.state.evaluated) {\n        this.setState({\n          allInput: this.state.formula + e.target.value,\n          evaluated: false\n        });\n      } else if (!endByOperators.test(this.state.allInput)) {\n        this.setState({\n          formula: this.state.allInput,\n          allInput: this.state.allInput + e.target.value\n        });\n      } else {\n        this.setState({\n          allInput: e.target.value === '-' ? this.state.allInput + e.target.value : this.state.formula + e.target.value\n        });\n      }\n    }\n  }, {\n    key: \"handleEquals\",\n    value: function handleEquals() {\n      while (endByOperators.test(this.state.allInput)) {\n        this.setState({\n          allInput: this.state.allInput.replace(/x/g, '*').slice(0, -1)\n        });\n      }\n\n      var result = Math.round(100000000000000 * eval(this.state.allInput)) / 100000000000000;\n      this.setState({\n        currentValue: result.toString(),\n        allInput: this.state.allInput + '=' + result,\n        formula: result,\n        evaluated: true\n      });\n    }\n  }, {\n    key: \"handleInit\",\n    value: function handleInit() {\n      this.setState({\n        currentValue: '0',\n        allInput: '',\n        formula: '',\n        evaluated: false\n      });\n    }\n  }, {\n    key: \"handleDel\",\n    value: function handleDel() {\n      /* i code this by my own, try to figure out when i review it */\n      if (this.state.evaluated) {\n        this.setState({\n          currentValue: this.state.currentValue,\n          allInput: this.state.allInput\n        });\n      } else {\n        this.setState({\n          currentValue: endByOperators.test(this.state.allInput.slice(0, -1)) ? this.state.allInput.slice(0, -1).match(/.$/) : this.state.allInput.slice(0, -1).match(/[.0-9]+$/),\n          allInput: this.state.allInput.slice(0, -1)\n        });\n      }\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      return React.createElement(\"div\", {\n        className: \"container\"\n      }, React.createElement(\"div\", {\n        className: \"calculator\"\n      }, React.createElement(\"div\", {\n        className: \"equationScreen\"\n      }, this.state.allInput), React.createElement(\"div\", {\n        id: \"display\",\n        className: \"calScreen\"\n      }, this.state.currentValue), React.createElement(Button, {\n        numbers: this.handleNumbers,\n        decimal: this.handleDecimal,\n        operators: this.handleOperators,\n        equals: this.handleEquals,\n        init: this.handleInit,\n        del: this.handleDel\n      })), React.createElement(\"footer\", null, \"Code by \", React.createElement(\"a\", {\n        href: \"https://github.com/Leonidas-I\",\n        target: \"_blank\"\n      }, \"Leonidas-I\"), \" aka Tri Phan\"));\n    }\n  }]);\n\n  return Calculator;\n}(React.Component);\n\n;\nexport default Calculator;"
+          "source": "function _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nimport React from 'react';\nimport Button from './button.jsx'; //should overview RegEx \\ ? . * +\n\nvar isOperators = /[+\\*/\\-]/,\n    endByOperators = /[+\\*/\\-]$/,\n    endByMinus = /[+\\*/]\\-$/;\n/*\ncurrentValue: luu gia tri vua nhap (so, chuoi so, dau)\nallInput: luu ALL nhung gi da nhap (kieu cong thuc hien ra tren man hinh)\nformula: luu ket qua sau khi nhan '=' va de luu ALL ngoai tru dau o cuoi cong thuc (handleOperators)\nevaluated: kieu flag xem coi allInput da duoc tinh toan chua\n*/\n\nvar Calculator =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(Calculator, _React$Component);\n\n  function Calculator(props) {\n    var _this;\n\n    _classCallCheck(this, Calculator);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(Calculator).call(this, props));\n    _this.state = {\n      currentValue: '0',\n      allInput: '',\n      formula: '0',\n      evaluated: false\n    };\n    _this.handleNumbers = _this.handleNumbers.bind(_assertThisInitialized(_this));\n    _this.handleDecimal = _this.handleDecimal.bind(_assertThisInitialized(_this));\n    _this.handleOperators = _this.handleOperators.bind(_assertThisInitialized(_this));\n    _this.handleEquals = _this.handleEquals.bind(_assertThisInitialized(_this));\n    _this.handleInit = _this.handleInit.bind(_assertThisInitialized(_this));\n    _this.handleDel = _this.handleDel.bind(_assertThisInitialized(_this));\n    return _this;\n  }\n\n  _createClass(Calculator, [{\n    key: \"handleNumbers\",\n    value: function handleNumbers(e) {\n      if (this.state.evaluated) {\n        this.setState({\n          currentValue: e.target.value,\n          allInput: e.target.value !== '0' ? e.target.value : '',\n          evaluated: false\n        });\n      } else {\n        this.setState({\n          currentValue: isOperators.test(this.state.currentValue) || this.state.currentValue === '0' ? e.target.value : this.state.currentValue + e.target.value,\n          allInput: this.state.currentValue === '0' && e.target.value === '0' ? this.state.allInput : /([^.0-9]0)$/.test(this.state.allInput) ? this.state.allInput.slice(0, -1) + e.target.value : this.state.allInput + e.target.value\n        });\n      }\n    }\n  }, {\n    key: \"handleDecimal\",\n    value: function handleDecimal() {\n      if (this.state.evaluated) {\n        this.setState({\n          currentValue: '0.',\n          allInput: '0.',\n          evaluated: false\n        });\n      } else if (endByOperators.test(this.state.allInput) || this.state.currentValue === '0' && this.state.allInput === '') {\n        this.setState({\n          currentValue: '0.',\n          allInput: this.state.allInput + '0.'\n        });\n      } else if (this.state.currentValue.includes('.') || /[^.0-9]?\\d+\\.\\d*$/.test(this.state.allInput)) {\n        this.setState({\n          currentValue: this.state.currentValue,\n          allInput: this.state.allInput\n        });\n      } else {\n        this.setState({\n          currentValue: this.state.currentValue + '.',\n          allInput: this.state.allInput + '.'\n        });\n      }\n    }\n  }, {\n    key: \"handleOperators\",\n    value: function handleOperators(e) {\n      this.setState({\n        currentValue: e.target.value,\n        evaluated: false\n      });\n\n      if (this.state.evaluated) {\n        this.setState({\n          allInput: this.state.formula + e.target.value\n        });\n      } else if (!endByOperators.test(this.state.allInput)) {\n        this.setState({\n          allInput: this.state.allInput + e.target.value,\n          formula: this.state.allInput\n        });\n      } else if (!endByMinus.test(this.state.allInput)) {\n        this.setState({\n          allInput: endByMinus.test(this.state.allInput + e.target.value) ? this.state.allInput + e.target.value : this.state.formula + e.target.value\n        });\n      } else if (e.target.value !== '-') {\n        this.setState({\n          allInput: this.state.formula + e.target.value\n        });\n      }\n    }\n  }, {\n    key: \"handleEquals\",\n    value: function handleEquals() {\n      while (endByOperators.test(this.state.allInput)) {\n        this.state.allInput = this.state.allInput.slice(0, -1);\n      }\n\n      var result = Math.round(100000000000000 * eval(this.state.allInput)) / 100000000000000;\n      this.setState({\n        currentValue: result.toString(),\n        allInput: this.state.allInput + '=' + result,\n        formula: result,\n        evaluated: true\n      });\n    }\n  }, {\n    key: \"handleInit\",\n    value: function handleInit() {\n      this.setState({\n        currentValue: '0',\n        allInput: '',\n        formula: '',\n        evaluated: false\n      });\n    }\n  }, {\n    key: \"handleDel\",\n    value: function handleDel() {\n      /* i code this by my own, try to figure out when i review it */\n      if (this.state.evaluated) {\n        this.setState({\n          currentValue: this.state.currentValue,\n          allInput: this.state.allInput\n        });\n      } else if (this.state.allInput.length === 1 || this.state.allInput === '') {\n        this.setState({\n          currentValue: '0',\n          allInput: '',\n          formula: '0',\n          evaluated: false\n        });\n      } else {\n        this.setState({\n          currentValue: endByOperators.test(this.state.allInput.slice(0, -1)) ? this.state.allInput.slice(0, -1).match(/.$/) : this.state.allInput.slice(0, -1).match(/[.0-9]+$/),\n          allInput: this.state.allInput.slice(0, -1)\n        });\n      }\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      return React.createElement(\"div\", {\n        className: \"container\"\n      }, React.createElement(\"div\", {\n        className: \"calculator\"\n      }, React.createElement(\"div\", {\n        className: \"equationScreen\"\n      }, this.state.allInput), React.createElement(\"div\", {\n        id: \"display\",\n        className: \"calScreen\"\n      }, this.state.currentValue), React.createElement(Button, {\n        numbers: this.handleNumbers,\n        decimal: this.handleDecimal,\n        operators: this.handleOperators,\n        equals: this.handleEquals,\n        init: this.handleInit,\n        del: this.handleDel\n      })), React.createElement(\"footer\", null, \"Code by \", React.createElement(\"a\", {\n        href: \"https://github.com/Leonidas-I\",\n        target: \"_blank\"\n      }, \"Leonidas-I\"), \" aka Tri Phan\"));\n    }\n  }]);\n\n  return Calculator;\n}(React.Component);\n\n;\nexport default Calculator;"
         },
         {
           "id": 4,
@@ -310,7 +310,7 @@
               "moduleName": "./src/calculator.jsx",
               "type": "harmony import specifier",
               "userRequest": "./button.jsx",
-              "loc": "177:55-61"
+              "loc": "187:55-61"
             }
           ],
           "usedExports": [
@@ -716,7 +716,7 @@
               "moduleName": "./src/calculator.jsx",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "168:13-18"
+              "loc": "178:13-18"
             },
             {
               "moduleId": 3,
@@ -725,7 +725,7 @@
               "moduleName": "./src/calculator.jsx",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "170:9-14"
+              "loc": "180:9-14"
             },
             {
               "moduleId": 3,
@@ -734,7 +734,7 @@
               "moduleName": "./src/calculator.jsx",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "172:9-14"
+              "loc": "182:9-14"
             },
             {
               "moduleId": 3,
@@ -743,7 +743,7 @@
               "moduleName": "./src/calculator.jsx",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "174:31-36"
+              "loc": "184:31-36"
             },
             {
               "moduleId": 3,
@@ -752,7 +752,7 @@
               "moduleName": "./src/calculator.jsx",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "177:35-40"
+              "loc": "187:35-40"
             },
             {
               "moduleId": 3,
@@ -761,7 +761,7 @@
               "moduleName": "./src/calculator.jsx",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "184:11-16"
+              "loc": "194:11-16"
             },
             {
               "moduleId": 3,
@@ -770,7 +770,7 @@
               "moduleName": "./src/calculator.jsx",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "184:59-64"
+              "loc": "194:59-64"
             },
             {
               "moduleId": 3,
@@ -779,7 +779,7 @@
               "moduleName": "./src/calculator.jsx",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "192:2-7"
+              "loc": "202:2-7"
             },
             {
               "moduleId": 4,
@@ -1233,7 +1233,7 @@
           "moduleName": "./src/calculator.jsx",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "168:13-18"
+          "loc": "178:13-18"
         },
         {
           "moduleId": 3,
@@ -1242,7 +1242,7 @@
           "moduleName": "./src/calculator.jsx",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "170:9-14"
+          "loc": "180:9-14"
         },
         {
           "moduleId": 3,
@@ -1251,7 +1251,7 @@
           "moduleName": "./src/calculator.jsx",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "172:9-14"
+          "loc": "182:9-14"
         },
         {
           "moduleId": 3,
@@ -1260,7 +1260,7 @@
           "moduleName": "./src/calculator.jsx",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "174:31-36"
+          "loc": "184:31-36"
         },
         {
           "moduleId": 3,
@@ -1269,7 +1269,7 @@
           "moduleName": "./src/calculator.jsx",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "177:35-40"
+          "loc": "187:35-40"
         },
         {
           "moduleId": 3,
@@ -1278,7 +1278,7 @@
           "moduleName": "./src/calculator.jsx",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "184:11-16"
+          "loc": "194:11-16"
         },
         {
           "moduleId": 3,
@@ -1287,7 +1287,7 @@
           "moduleName": "./src/calculator.jsx",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "184:59-64"
+          "loc": "194:59-64"
         },
         {
           "moduleId": 3,
@@ -1296,7 +1296,7 @@
           "moduleName": "./src/calculator.jsx",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "192:2-7"
+          "loc": "202:2-7"
         },
         {
           "moduleId": 4,
@@ -1537,9 +1537,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react/cjs/react.production.min.js",
-      "issuerId": 6,
-      "issuerName": "./node_modules/react/cjs/react.production.min.js",
+      "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerId": 7,
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
       "issuerPath": [
         {
           "id": 5,
@@ -1547,14 +1547,14 @@
           "name": "./src/index.jsx"
         },
         {
-          "id": 0,
-          "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react/index.js",
-          "name": "./node_modules/react/index.js"
+          "id": 2,
+          "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react-dom/index.js",
+          "name": "./node_modules/react-dom/index.js"
         },
         {
-          "id": 6,
-          "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react/cjs/react.production.min.js",
-          "name": "./node_modules/react/cjs/react.production.min.js"
+          "id": 7,
+          "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
         }
       ],
       "failed": false,
@@ -1655,7 +1655,7 @@
       "name": "./src/calculator.jsx",
       "index": 11,
       "index2": 11,
-      "size": 8075,
+      "size": 8493,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -1708,7 +1708,7 @@
         "ModuleConcatenation bailout: Module uses eval()"
       ],
       "depth": 1,
-      "source": "function _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nimport React from 'react';\nimport Button from './button.jsx'; //should overview RegEx \\ ? . * +\n\nvar isOperators = /[^.0-9]/,\n    endByOperators = /[^.0-9]$/;\n/*\ncurrentValue: luu gia tri vua nhap (so, chuoi so, dau)\nallInput: luu ALL nhung gi da nhap (kieu cong thuc hien ra tren man hinh)\nformula: luu ket qua sau khi nhan '=' va de luu ALL ngoai tru dau o cuoi cong thuc (handleOperators)\nevaluated: kieu flag xem coi allInput da duoc tinh toan chua\n*/\n\nvar Calculator =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(Calculator, _React$Component);\n\n  function Calculator(props) {\n    var _this;\n\n    _classCallCheck(this, Calculator);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(Calculator).call(this, props));\n    _this.state = {\n      currentValue: '0',\n      allInput: '',\n      formula: '0',\n      evaluated: false\n    };\n    _this.handleNumbers = _this.handleNumbers.bind(_assertThisInitialized(_this));\n    _this.handleDecimal = _this.handleDecimal.bind(_assertThisInitialized(_this));\n    _this.handleOperators = _this.handleOperators.bind(_assertThisInitialized(_this));\n    _this.handleEquals = _this.handleEquals.bind(_assertThisInitialized(_this));\n    _this.handleInit = _this.handleInit.bind(_assertThisInitialized(_this));\n    _this.handleDel = _this.handleDel.bind(_assertThisInitialized(_this));\n    return _this;\n  }\n\n  _createClass(Calculator, [{\n    key: \"handleNumbers\",\n    value: function handleNumbers(e) {\n      if (this.state.evaluated) {\n        this.setState({\n          currentValue: e.target.value,\n          allInput: e.target.value !== '0' ? e.target.value : '',\n          evaluated: false\n        });\n      } else {\n        this.setState({\n          currentValue: isOperators.test(this.state.currentValue) || this.state.currentValue === '0' ? e.target.value : this.state.currentValue + e.target.value,\n          allInput: this.state.currentValue === '0' && e.target.value === '0' ? this.state.allInput : /([^.0-9]0)$/.test(this.state.allInput) ? this.state.allInput.slice(0, -1) + e.target.value : this.state.allInput + e.target.value\n        });\n      }\n    }\n  }, {\n    key: \"handleDecimal\",\n    value: function handleDecimal() {\n      if (this.state.evaluated) {\n        this.setState({\n          currentValue: '0.',\n          allInput: '0.',\n          evaluated: false\n        });\n      } else if (endByOperators.test(this.state.allInput) || this.state.currentValue === '0' && this.state.allInput === '') {\n        this.setState({\n          currentValue: '0.',\n          allInput: this.state.allInput + '0.'\n        });\n      } else if (this.state.currentValue.includes('.') || /[^.0-9]?\\d+\\.\\d*$/.test(this.state.allInput)) {\n        this.setState({\n          currentValue: this.state.currentValue,\n          allInput: this.state.allInput\n        });\n      } else {\n        this.setState({\n          currentValue: this.state.currentValue + '.',\n          allInput: this.state.allInput + '.'\n        });\n      }\n    }\n  }, {\n    key: \"handleOperators\",\n    value: function handleOperators(e) {\n      this.setState({\n        currentValue: e.target.value\n      });\n\n      if (this.state.evaluated) {\n        this.setState({\n          allInput: this.state.formula + e.target.value,\n          evaluated: false\n        });\n      } else if (!endByOperators.test(this.state.allInput)) {\n        this.setState({\n          formula: this.state.allInput,\n          allInput: this.state.allInput + e.target.value\n        });\n      } else {\n        this.setState({\n          allInput: e.target.value === '-' ? this.state.allInput + e.target.value : this.state.formula + e.target.value\n        });\n      }\n    }\n  }, {\n    key: \"handleEquals\",\n    value: function handleEquals() {\n      while (endByOperators.test(this.state.allInput)) {\n        this.setState({\n          allInput: this.state.allInput.replace(/x/g, '*').slice(0, -1)\n        });\n      }\n\n      var result = Math.round(100000000000000 * eval(this.state.allInput)) / 100000000000000;\n      this.setState({\n        currentValue: result.toString(),\n        allInput: this.state.allInput + '=' + result,\n        formula: result,\n        evaluated: true\n      });\n    }\n  }, {\n    key: \"handleInit\",\n    value: function handleInit() {\n      this.setState({\n        currentValue: '0',\n        allInput: '',\n        formula: '',\n        evaluated: false\n      });\n    }\n  }, {\n    key: \"handleDel\",\n    value: function handleDel() {\n      /* i code this by my own, try to figure out when i review it */\n      if (this.state.evaluated) {\n        this.setState({\n          currentValue: this.state.currentValue,\n          allInput: this.state.allInput\n        });\n      } else {\n        this.setState({\n          currentValue: endByOperators.test(this.state.allInput.slice(0, -1)) ? this.state.allInput.slice(0, -1).match(/.$/) : this.state.allInput.slice(0, -1).match(/[.0-9]+$/),\n          allInput: this.state.allInput.slice(0, -1)\n        });\n      }\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      return React.createElement(\"div\", {\n        className: \"container\"\n      }, React.createElement(\"div\", {\n        className: \"calculator\"\n      }, React.createElement(\"div\", {\n        className: \"equationScreen\"\n      }, this.state.allInput), React.createElement(\"div\", {\n        id: \"display\",\n        className: \"calScreen\"\n      }, this.state.currentValue), React.createElement(Button, {\n        numbers: this.handleNumbers,\n        decimal: this.handleDecimal,\n        operators: this.handleOperators,\n        equals: this.handleEquals,\n        init: this.handleInit,\n        del: this.handleDel\n      })), React.createElement(\"footer\", null, \"Code by \", React.createElement(\"a\", {\n        href: \"https://github.com/Leonidas-I\",\n        target: \"_blank\"\n      }, \"Leonidas-I\"), \" aka Tri Phan\"));\n    }\n  }]);\n\n  return Calculator;\n}(React.Component);\n\n;\nexport default Calculator;"
+      "source": "function _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nimport React from 'react';\nimport Button from './button.jsx'; //should overview RegEx \\ ? . * +\n\nvar isOperators = /[+\\*/\\-]/,\n    endByOperators = /[+\\*/\\-]$/,\n    endByMinus = /[+\\*/]\\-$/;\n/*\ncurrentValue: luu gia tri vua nhap (so, chuoi so, dau)\nallInput: luu ALL nhung gi da nhap (kieu cong thuc hien ra tren man hinh)\nformula: luu ket qua sau khi nhan '=' va de luu ALL ngoai tru dau o cuoi cong thuc (handleOperators)\nevaluated: kieu flag xem coi allInput da duoc tinh toan chua\n*/\n\nvar Calculator =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(Calculator, _React$Component);\n\n  function Calculator(props) {\n    var _this;\n\n    _classCallCheck(this, Calculator);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(Calculator).call(this, props));\n    _this.state = {\n      currentValue: '0',\n      allInput: '',\n      formula: '0',\n      evaluated: false\n    };\n    _this.handleNumbers = _this.handleNumbers.bind(_assertThisInitialized(_this));\n    _this.handleDecimal = _this.handleDecimal.bind(_assertThisInitialized(_this));\n    _this.handleOperators = _this.handleOperators.bind(_assertThisInitialized(_this));\n    _this.handleEquals = _this.handleEquals.bind(_assertThisInitialized(_this));\n    _this.handleInit = _this.handleInit.bind(_assertThisInitialized(_this));\n    _this.handleDel = _this.handleDel.bind(_assertThisInitialized(_this));\n    return _this;\n  }\n\n  _createClass(Calculator, [{\n    key: \"handleNumbers\",\n    value: function handleNumbers(e) {\n      if (this.state.evaluated) {\n        this.setState({\n          currentValue: e.target.value,\n          allInput: e.target.value !== '0' ? e.target.value : '',\n          evaluated: false\n        });\n      } else {\n        this.setState({\n          currentValue: isOperators.test(this.state.currentValue) || this.state.currentValue === '0' ? e.target.value : this.state.currentValue + e.target.value,\n          allInput: this.state.currentValue === '0' && e.target.value === '0' ? this.state.allInput : /([^.0-9]0)$/.test(this.state.allInput) ? this.state.allInput.slice(0, -1) + e.target.value : this.state.allInput + e.target.value\n        });\n      }\n    }\n  }, {\n    key: \"handleDecimal\",\n    value: function handleDecimal() {\n      if (this.state.evaluated) {\n        this.setState({\n          currentValue: '0.',\n          allInput: '0.',\n          evaluated: false\n        });\n      } else if (endByOperators.test(this.state.allInput) || this.state.currentValue === '0' && this.state.allInput === '') {\n        this.setState({\n          currentValue: '0.',\n          allInput: this.state.allInput + '0.'\n        });\n      } else if (this.state.currentValue.includes('.') || /[^.0-9]?\\d+\\.\\d*$/.test(this.state.allInput)) {\n        this.setState({\n          currentValue: this.state.currentValue,\n          allInput: this.state.allInput\n        });\n      } else {\n        this.setState({\n          currentValue: this.state.currentValue + '.',\n          allInput: this.state.allInput + '.'\n        });\n      }\n    }\n  }, {\n    key: \"handleOperators\",\n    value: function handleOperators(e) {\n      this.setState({\n        currentValue: e.target.value,\n        evaluated: false\n      });\n\n      if (this.state.evaluated) {\n        this.setState({\n          allInput: this.state.formula + e.target.value\n        });\n      } else if (!endByOperators.test(this.state.allInput)) {\n        this.setState({\n          allInput: this.state.allInput + e.target.value,\n          formula: this.state.allInput\n        });\n      } else if (!endByMinus.test(this.state.allInput)) {\n        this.setState({\n          allInput: endByMinus.test(this.state.allInput + e.target.value) ? this.state.allInput + e.target.value : this.state.formula + e.target.value\n        });\n      } else if (e.target.value !== '-') {\n        this.setState({\n          allInput: this.state.formula + e.target.value\n        });\n      }\n    }\n  }, {\n    key: \"handleEquals\",\n    value: function handleEquals() {\n      while (endByOperators.test(this.state.allInput)) {\n        this.state.allInput = this.state.allInput.slice(0, -1);\n      }\n\n      var result = Math.round(100000000000000 * eval(this.state.allInput)) / 100000000000000;\n      this.setState({\n        currentValue: result.toString(),\n        allInput: this.state.allInput + '=' + result,\n        formula: result,\n        evaluated: true\n      });\n    }\n  }, {\n    key: \"handleInit\",\n    value: function handleInit() {\n      this.setState({\n        currentValue: '0',\n        allInput: '',\n        formula: '',\n        evaluated: false\n      });\n    }\n  }, {\n    key: \"handleDel\",\n    value: function handleDel() {\n      /* i code this by my own, try to figure out when i review it */\n      if (this.state.evaluated) {\n        this.setState({\n          currentValue: this.state.currentValue,\n          allInput: this.state.allInput\n        });\n      } else if (this.state.allInput.length === 1 || this.state.allInput === '') {\n        this.setState({\n          currentValue: '0',\n          allInput: '',\n          formula: '0',\n          evaluated: false\n        });\n      } else {\n        this.setState({\n          currentValue: endByOperators.test(this.state.allInput.slice(0, -1)) ? this.state.allInput.slice(0, -1).match(/.$/) : this.state.allInput.slice(0, -1).match(/[.0-9]+$/),\n          allInput: this.state.allInput.slice(0, -1)\n        });\n      }\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      return React.createElement(\"div\", {\n        className: \"container\"\n      }, React.createElement(\"div\", {\n        className: \"calculator\"\n      }, React.createElement(\"div\", {\n        className: \"equationScreen\"\n      }, this.state.allInput), React.createElement(\"div\", {\n        id: \"display\",\n        className: \"calScreen\"\n      }, this.state.currentValue), React.createElement(Button, {\n        numbers: this.handleNumbers,\n        decimal: this.handleDecimal,\n        operators: this.handleOperators,\n        equals: this.handleEquals,\n        init: this.handleInit,\n        del: this.handleDel\n      })), React.createElement(\"footer\", null, \"Code by \", React.createElement(\"a\", {\n        href: \"https://github.com/Leonidas-I\",\n        target: \"_blank\"\n      }, \"Leonidas-I\"), \" aka Tri Phan\"));\n    }\n  }]);\n\n  return Calculator;\n}(React.Component);\n\n;\nexport default Calculator;"
     },
     {
       "id": 4,
@@ -1761,7 +1761,7 @@
           "moduleName": "./src/calculator.jsx",
           "type": "harmony import specifier",
           "userRequest": "./button.jsx",
-          "loc": "177:55-61"
+          "loc": "187:55-61"
         }
       ],
       "usedExports": [

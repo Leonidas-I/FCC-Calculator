@@ -3,8 +3,9 @@ import Button from './button.jsx';
 
 
 //should overview RegEx \ ? . * +
-const isOperators = /[^.0-9]/,
-      endByOperators = /[^.0-9]$/;
+const isOperators = /[+\*/\-]/,
+      endByOperators = /[+\*/\-]$/,
+      endByMinus = /[+\*/]\-$/;
 
 
 /*
@@ -90,34 +91,38 @@ class Calculator extends React.Component {
 
   handleOperators(e) {
     this.setState({
-      currentValue: e.target.value
+      currentValue: e.target.value,
+      evaluated: false
     });
     if (this.state.evaluated) {
       this.setState({
-        allInput: this.state.formula + e.target.value,
-        evaluated: false
+        allInput: this.state.formula + e.target.value
       });
     }
     else if (!endByOperators.test(this.state.allInput)) {
       this.setState({
-        formula: this.state.allInput,
-        allInput: this.state.allInput + e.target.value
+        allInput: this.state.allInput + e.target.value,
+        formula: this.state.allInput
+        
       });
     }
-    else {
+    else if (!endByMinus.test(this.state.allInput)) {
       this.setState({
-        allInput: e.target.value === '-'
+        allInput: endByMinus.test(this.state.allInput + e.target.value)
           ? this.state.allInput + e.target.value
           : this.state.formula + e.target.value
+      });
+    }
+    else if (e.target.value !== '-') {
+      this.setState({
+        allInput: this.state.formula + e.target.value
       });
     }
   }
 
   handleEquals() {
     while (endByOperators.test(this.state.allInput)) {
-      this.setState({
-        allInput: this.state.allInput.replace(/x/g, '*').slice(0, -1)
-      });
+        this.state.allInput = this.state.allInput.slice(0, -1)
     }
     let result = Math.round(100000000000000*eval(this.state.allInput))/100000000000000;
     this.setState({
@@ -142,6 +147,14 @@ class Calculator extends React.Component {
       this.setState({
         currentValue: this.state.currentValue,
         allInput: this.state.allInput
+      });
+    }
+    else if (this.state.allInput.length === 1 || this.state.allInput === '') {
+      this.setState({
+        currentValue: '0',
+        allInput: '',
+        formula: '0',
+        evaluated: false
       });
     }
     else {
