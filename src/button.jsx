@@ -33,7 +33,7 @@ class Button extends React.Component {
         <button id='seven'    value='7'   onClick={this.props.numbers}>7</button>
         <button id='eight'    value='8'   onClick={this.props.numbers}>8</button>
         <button id='nine'     value='9'   onClick={this.props.numbers}>9</button>
-        <button id='multiply' value='*'   onClick={this.props.operators}  style={operatorStyle}>x</button>
+        <button id='multiply' value='x'   onClick={this.props.operators}  style={operatorStyle}>x</button>
         
         <button id='four'     value='4'   onClick={this.props.numbers}>4</button>
         <button id='five'     value='5'   onClick={this.props.numbers}>5</button>

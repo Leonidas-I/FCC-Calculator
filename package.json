@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.js --open --port 9000",
     "prod": "webpack --config webpack.prod.js",
-    "analyzer": "webpack-bundle-analyzer dist/stats.json --static"
+    "analyzer": "webpack-bundle-analyzer dist/stats.json --static",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +23,7 @@
     "eslint": "^6.5.1",
     "eslint-plugin-react": "^7.16.0",
     "file-loader": "^4.2.0",
+    "gh-pages": "^2.1.1",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.8.0",

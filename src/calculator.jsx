@@ -3,9 +3,9 @@ import Button from './button.jsx';
 
 
 //should overview RegEx \ ? . * +
-const isOperators = /[+\*/\-]/,
-      endByOperators = /[+\*/\-]$/,
-      endByMinus = /[+\*/]\-$/;
+const isOperators = /[+x/\-]/,
+      endByOperators = /[+x/\-]$/,
+      endByMinus = /[+x/]\-$/;
 
 
 /*
@@ -124,10 +124,11 @@ class Calculator extends React.Component {
     while (endByOperators.test(this.state.allInput)) {
         this.state.allInput = this.state.allInput.slice(0, -1)
     }
+    this.state.allInput = this.state.allInput.replace(/x/g, '*')
     let result = Math.round(100000000000000*eval(this.state.allInput))/100000000000000;
     this.setState({
       currentValue: result.toString(),
-      allInput: this.state.allInput + '=' + result,
+      allInput: this.state.allInput.replace(/\*/g, 'x') + '=' + result,
       formula: result,
       evaluated: true
     });
