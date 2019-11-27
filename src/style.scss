@@ -1,38 +1,39 @@
 /* xem them cac cach import font 
 https://www.onlinewebfonts.com/download/1b40984d7a10bcae004877dc48f4cc8f */
-/*
+
 @font-face {
-  font-family: "Digital";
-  src:  url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.eot");
-  src:  url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.eot?#iefix") format("embedded-opentype"),
-        url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.woff2") format("woff2"),
-        url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.woff") format("woff"),
-        url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.ttf") format("truetype"),
-        url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.svg#Digital, serif, monospace") format("svg");
-}
-*/
-@import url(https://db.onlinewebfonts.com/c/1b40984d7a10bcae004877dc48f4cc8f?family=Digital);
+  font-family: "DS-Digital";
+  src: url("../fonts/63f874d192fb3892d88d5e26f942b5e2.eot");
+  src: 
+  url("../fonts/63f874d192fb3892d88d5e26f942b5e2.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/63f874d192fb3892d88d5e26f942b5e2.woff2") format("woff2"),
+  url("../fonts/63f874d192fb3892d88d5e26f942b5e2.woff") format("woff"),
+  url("../fonts/63f874d192fb3892d88d5e26f942b5e2.ttf") format("truetype"),
+  url("../fonts/63f874d192fb3892d88d5e26f942b5e2.svg#DS-Digital") format("svg");
+} 
+
+// @import url(https://db.onlinewebfonts.com/c/1b40984d7a10bcae004877dc48f4cc8f?family=Digital);
 
 $numColor: silver;
 
 
 body {
-  background: aquamarine;
+  background: burlywood;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: column wrap;
   height: 100vh;
-  flex-direction: column;
 }
 
 .calculator {
   position: relative;
-  border: 5px solid maroon;
+  border: 5px solid teal;
   border-radius: 10px;
-  background: gold;
+  background: moccasin;
   padding: 5px;
   width: 300px;
 }
@@ -42,18 +43,18 @@ body {
   font-size: 1.5em;
   color: coral;
   text-align: left;
-  font-family: Digital, monospace, serif;
-  line-height: 1.2;
+  font-family: DS-Digital, monospace, serif;
+  line-height: 1.5;
   word-wrap: break-word;
 }
 
 .calScreen {
-  min-height: 2em;
+  min-height: 1.5em;
   font-size: 2em;
   color: indigo;
   text-align: right;
-  font-family: Digital, monospace, serif;
-  line-height: 1.2;
+  font-family: DS-Digital, monospace, serif;
+  line-height: 1.5;
   word-wrap: break-word;
 }
 
@@ -63,13 +64,13 @@ button {
   width: 75px;
   border: none;
   background: $numColor;
-  font-family: Digital, monospace, serif;
-  font-size: 1.5em;
-  color: fuchsia;
-  outline: 2px solid fuchsia;
+  font-family: DS-Digital, monospace, serif;
+  font-size: 2em;
+  color: blueviolet;
+  outline: 2px solid blueviolet;
   &:hover {
-    outline: 3px solid white;
-    color: white;
+    outline: 2px solid snow;
+    color: snow;
     z-index: 1;
     cursor: crosshair;
   }
@@ -79,7 +80,7 @@ footer {
   text-align: center;
   font-size: 2em;
   color: orangered;
-  font-family: Digital, monospace, serif;
+  font-family: DS-Digital, monospace, serif;
   margin-top: 30px;
   &:hover {
     color: white;

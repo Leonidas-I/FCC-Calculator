@@ -7,18 +7,18 @@ class Button extends React.Component {
           backgroundColor: 'lime',
         },
         deleteStyle = {
-          backgroundColor: 'tan',
+          backgroundColor: 'cornflowerblue',
           height: '75px',
           width:'150px'
         },
         operatorStyle = {
-          backgroundColor: 'grey'
+          backgroundColor: 'chocolate'
         },
         equalStyle = {
-          backgroundColor: 'royalblue'
+          backgroundColor: 'cyan'
         },
         zeroStyle = {
-          backgroundColor: 'pink',
+          backgroundColor: 'grey',
           height: '75px',
           width:'150px'
         };
@@ -27,13 +27,13 @@ class Button extends React.Component {
       <div>
         <button id='clear'    value='AC'  onClick={this.props.init}  style={clearStyle}>AC</button>
         {/*ref from w3schools symbol keyword*/}
-        <button id='delete'   value='Del' onClick={this.props.del} style={deleteStyle}>&#8592;</button>
+        <button id='delete'   value='Del' onClick={this.props.del} style={deleteStyle}>DEL</button>
         <button id='divide'   value='/'   onClick={this.props.operators}  style={operatorStyle}>/</button>
         
         <button id='seven'    value='7'   onClick={this.props.numbers}>7</button>
         <button id='eight'    value='8'   onClick={this.props.numbers}>8</button>
         <button id='nine'     value='9'   onClick={this.props.numbers}>9</button>
-        <button id='multiply' value='x'   onClick={this.props.operators}  style={operatorStyle}>x</button>
+        <button id='multiply' value='*'   onClick={this.props.operators}  style={operatorStyle}>x</button>
         
         <button id='four'     value='4'   onClick={this.props.numbers}>4</button>
         <button id='five'     value='5'   onClick={this.props.numbers}>5</button>
