@@ -5,8 +5,8 @@
   ],
   "version": "4.41.2",
   "hash": "34707972b20bf7360f1f",
-  "time": 15570,
-  "builtAt": 1574608096603,
+  "time": 16240,
+  "builtAt": 1574826171834,
   "publicPath": "",
   "outputPath": "/home/arcolinux/leonidas-project/FCC-Calculator/dist",
   "assetsByChunkName": {
@@ -145,9 +145,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react-dom/cjs/react-dom.production.min.js",
-          "issuerId": 7,
-          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react/cjs/react.production.min.js",
+          "issuerId": 6,
+          "issuerName": "./node_modules/react/cjs/react.production.min.js",
           "issuerPath": [
             {
               "id": 5,
@@ -155,14 +155,14 @@
               "name": "./src/index.jsx"
             },
             {
-              "id": 2,
-              "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react-dom/index.js",
-              "name": "./node_modules/react-dom/index.js"
+              "id": 0,
+              "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react/index.js",
+              "name": "./node_modules/react/index.js"
             },
             {
-              "id": 7,
-              "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react-dom/cjs/react-dom.production.min.js",
-              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
+              "id": 6,
+              "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react/cjs/react.production.min.js",
+              "name": "./node_modules/react/cjs/react.production.min.js"
             }
           ],
           "failed": false,
@@ -1537,9 +1537,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react-dom/cjs/react-dom.production.min.js",
-      "issuerId": 7,
-      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react/cjs/react.production.min.js",
+      "issuerId": 6,
+      "issuerName": "./node_modules/react/cjs/react.production.min.js",
       "issuerPath": [
         {
           "id": 5,
@@ -1547,14 +1547,14 @@
           "name": "./src/index.jsx"
         },
         {
-          "id": 2,
-          "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react-dom/index.js",
-          "name": "./node_modules/react-dom/index.js"
+          "id": 0,
+          "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react/index.js",
+          "name": "./node_modules/react/index.js"
         },
         {
-          "id": 7,
-          "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react-dom/cjs/react-dom.production.min.js",
-          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
+          "id": 6,
+          "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react/cjs/react.production.min.js",
+          "name": "./node_modules/react/cjs/react.production.min.js"
         }
       ],
       "failed": false,
