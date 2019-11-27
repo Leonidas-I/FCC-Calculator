@@ -5,8 +5,8 @@
   ],
   "version": "4.41.2",
   "hash": "d9b7959d9982945cc957",
-  "time": 20692,
-  "builtAt": 1574855529435,
+  "time": 14180,
+  "builtAt": 1574856566957,
   "publicPath": "",
   "outputPath": "/home/arcolinux/leonidas-project/FCC-Calculator/dist",
   "assetsByChunkName": {
@@ -490,7 +490,7 @@
         },
         {
           "id": 10,
-          "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+          "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
           "name": "./src/style.scss",
           "index": 8,
           "index2": 9,
@@ -538,8 +538,8 @@
         },
         {
           "id": "",
-          "identifier": "css /home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss 0",
-          "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "identifier": "css /home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss 0",
+          "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
           "index": 9,
           "index2": 7,
           "size": 93,
@@ -549,7 +549,7 @@
           "chunks": [
             0
           ],
-          "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+          "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
           "issuerId": 10,
           "issuerName": "./src/style.scss",
           "issuerPath": [
@@ -560,7 +560,7 @@
             },
             {
               "id": 10,
-              "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+              "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
               "name": "./src/style.scss"
             }
           ],
@@ -572,7 +572,7 @@
           "reasons": [
             {
               "moduleId": 10,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
               "module": "./src/style.scss",
               "moduleName": "./src/style.scss"
             }
@@ -586,8 +586,8 @@
         },
         {
           "id": "",
-          "identifier": "css /home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss 1",
-          "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss (1)",
+          "identifier": "css /home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss 1",
+          "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss (1)",
           "index": 10,
           "index2": 8,
           "size": 1266,
@@ -597,7 +597,7 @@
           "chunks": [
             0
           ],
-          "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+          "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
           "issuerId": 10,
           "issuerName": "./src/style.scss",
           "issuerPath": [
@@ -608,7 +608,7 @@
             },
             {
               "id": 10,
-              "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+              "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
               "name": "./src/style.scss"
             }
           ],
@@ -620,7 +620,7 @@
           "reasons": [
             {
               "moduleId": 10,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
               "module": "./src/style.scss",
               "moduleName": "./src/style.scss"
             }
@@ -2047,7 +2047,7 @@
     },
     {
       "id": 10,
-      "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+      "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
       "name": "./src/style.scss",
       "index": 8,
       "index2": 9,
@@ -2095,8 +2095,8 @@
     },
     {
       "id": "",
-      "identifier": "css /home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss 0",
-      "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+      "identifier": "css /home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss 0",
+      "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
       "index": 9,
       "index2": 7,
       "size": 93,
@@ -2106,7 +2106,7 @@
       "chunks": [
         0
       ],
-      "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+      "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
       "issuerId": 10,
       "issuerName": "./src/style.scss",
       "issuerPath": [
@@ -2117,7 +2117,7 @@
         },
         {
           "id": 10,
-          "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+          "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
           "name": "./src/style.scss"
         }
       ],
@@ -2129,7 +2129,7 @@
       "reasons": [
         {
           "moduleId": 10,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
           "module": "./src/style.scss",
           "moduleName": "./src/style.scss"
         }
@@ -2143,8 +2143,8 @@
     },
     {
       "id": "",
-      "identifier": "css /home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss 1",
-      "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss (1)",
+      "identifier": "css /home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss 1",
+      "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss (1)",
       "index": 10,
       "index2": 8,
       "size": 1266,
@@ -2154,7 +2154,7 @@
       "chunks": [
         0
       ],
-      "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+      "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
       "issuerId": 10,
       "issuerName": "./src/style.scss",
       "issuerPath": [
@@ -2165,7 +2165,7 @@
         },
         {
           "id": 10,
-          "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+          "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
           "name": "./src/style.scss"
         }
       ],
@@ -2177,7 +2177,7 @@
       "reasons": [
         {
           "moduleId": 10,
-          "moduleIdentifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+          "moduleIdentifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/mini-css-extract-plugin/dist/loader.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
           "module": "./src/style.scss",
           "moduleName": "./src/style.scss"
         }
@@ -2451,8 +2451,8 @@
           "modules": [
             {
               "id": 0,
-              "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
-              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
               "index": 0,
               "index2": 1,
               "size": 1544,
@@ -2479,7 +2479,7 @@
                   "module": null,
                   "moduleName": null,
                   "type": "single entry",
-                  "userRequest": "!!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+                  "userRequest": "!!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
                   "loc": "mini-css-extract-plugin"
                 }
               ],
@@ -2505,14 +2505,14 @@
               "chunks": [
                 0
               ],
-              "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+              "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
               "issuerId": 0,
-              "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
               "issuerPath": [
                 {
                   "id": 0,
-                  "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
-                  "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+                  "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+                  "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
                 }
               ],
               "failed": false,
@@ -2523,9 +2523,9 @@
               "reasons": [
                 {
                   "moduleId": 0,
-                  "moduleIdentifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
-                  "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
-                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+                  "moduleIdentifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
                   "type": "cjs require",
                   "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
                   "loc": "1:27-84"
@@ -2547,7 +2547,7 @@
               "moduleIdentifier": "",
               "moduleName": "",
               "loc": "mini-css-extract-plugin",
-              "request": "!!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+              "request": "!!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
               "reasons": [
               ]
             }
@@ -2557,8 +2557,8 @@
       "modules": [
         {
           "id": 0,
-          "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
-          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
           "index": 0,
           "index2": 1,
           "size": 1544,
@@ -2585,7 +2585,7 @@
               "module": null,
               "moduleName": null,
               "type": "single entry",
-              "userRequest": "!!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+              "userRequest": "!!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
               "loc": "mini-css-extract-plugin"
             }
           ],
@@ -2611,14 +2611,14 @@
           "chunks": [
             0
           ],
-          "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+          "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
           "issuerId": 0,
-          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
-              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
+              "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss"
             }
           ],
           "failed": false,
@@ -2629,9 +2629,9 @@
           "reasons": [
             {
               "moduleId": 0,
-              "moduleIdentifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--6-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
-              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "moduleIdentifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/css-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/postcss-loader/src/index.js??ref--7-2!/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/sass-loader/dist/cjs.js!/home/arcolinux/leonidas-project/FCC-Calculator/src/style.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
               "type": "cjs require",
               "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
               "loc": "1:27-84"
@@ -2657,7 +2657,7 @@
       },
       "children": [
       ],
-      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js!src/style.scss"
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js!node_modules/postcss-loader/src/index.js??ref--7-2!node_modules/sass-loader/dist/cjs.js!src/style.scss"
     }
   ]
 }
