@@ -5,8 +5,8 @@
   ],
   "version": "4.41.2",
   "hash": "863b5f79e5ffedb664e3",
-  "time": 20596,
-  "builtAt": 1574872283276,
+  "time": 13113,
+  "builtAt": 1574910194028,
   "publicPath": "",
   "outputPath": "/home/arcolinux/leonidas-project/FCC-Calculator/dist",
   "assetsByChunkName": {
@@ -200,9 +200,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react/cjs/react.production.min.js",
-          "issuerId": 6,
-          "issuerName": "./node_modules/react/cjs/react.production.min.js",
+          "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuerId": 7,
+          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
           "issuerPath": [
             {
               "id": 5,
@@ -210,14 +210,14 @@
               "name": "./src/index.jsx"
             },
             {
-              "id": 0,
-              "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react/index.js",
-              "name": "./node_modules/react/index.js"
+              "id": 2,
+              "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react-dom/index.js",
+              "name": "./node_modules/react-dom/index.js"
             },
             {
-              "id": 6,
-              "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react/cjs/react.production.min.js",
-              "name": "./node_modules/react/cjs/react.production.min.js"
+              "id": 7,
+              "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
             }
           ],
           "failed": false,
@@ -571,11 +571,11 @@
           "errors": 0,
           "warnings": 0,
           "assets": [
+            "fonts/63f874d192fb3892d88d5e26f942b5e2.eot",
             "fonts/63f874d192fb3892d88d5e26f942b5e2.woff2",
             "fonts/63f874d192fb3892d88d5e26f942b5e2.woff",
             "fonts/63f874d192fb3892d88d5e26f942b5e2.ttf",
-            "fonts/63f874d192fb3892d88d5e26f942b5e2.svg",
-            "fonts/63f874d192fb3892d88d5e26f942b5e2.eot"
+            "fonts/63f874d192fb3892d88d5e26f942b5e2.svg"
           ],
           "reasons": [
             {
@@ -1549,9 +1549,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react/cjs/react.production.min.js",
-      "issuerId": 6,
-      "issuerName": "./node_modules/react/cjs/react.production.min.js",
+      "issuer": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerId": 7,
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
       "issuerPath": [
         {
           "id": 5,
@@ -1559,14 +1559,14 @@
           "name": "./src/index.jsx"
         },
         {
-          "id": 0,
-          "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react/index.js",
-          "name": "./node_modules/react/index.js"
+          "id": 2,
+          "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react-dom/index.js",
+          "name": "./node_modules/react-dom/index.js"
         },
         {
-          "id": 6,
-          "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react/cjs/react.production.min.js",
-          "name": "./node_modules/react/cjs/react.production.min.js"
+          "id": 7,
+          "identifier": "/home/arcolinux/leonidas-project/FCC-Calculator/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
         }
       ],
       "failed": false,
@@ -2085,11 +2085,11 @@
       "errors": 0,
       "warnings": 0,
       "assets": [
+        "fonts/63f874d192fb3892d88d5e26f942b5e2.eot",
         "fonts/63f874d192fb3892d88d5e26f942b5e2.woff2",
         "fonts/63f874d192fb3892d88d5e26f942b5e2.woff",
         "fonts/63f874d192fb3892d88d5e26f942b5e2.ttf",
-        "fonts/63f874d192fb3892d88d5e26f942b5e2.svg",
-        "fonts/63f874d192fb3892d88d5e26f942b5e2.eot"
+        "fonts/63f874d192fb3892d88d5e26f942b5e2.svg"
       ],
       "reasons": [
         {
