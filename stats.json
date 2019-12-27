@@ -4,14 +4,14 @@
   "warnings": [
   ],
   "version": "4.41.2",
-  "hash": "f29f5da7401dad58e468",
-  "time": 22064,
-  "builtAt": 1577445679903,
+  "hash": "29f7f0b68d5c3f39b823",
+  "time": 26065,
+  "builtAt": 1577456197911,
   "publicPath": "",
   "outputPath": "/home/arcolinux/leonidas-project/FCC-Calculator/dist",
   "assetsByChunkName": {
     "main": [
-      "main.4235b7e5a0ff978a9373.css",
+      "main.75997d47e9a77f3ea46e.css",
       "main.a217ac2e0391ff56baa0.bundle.js"
     ],
     "vendor": "vendor.7392763c14ec7f797e87.bundle.js"
@@ -74,7 +74,7 @@
     },
     {
       "name": "index.html",
-      "size": 349,
+      "size": 463,
       "chunks": [
       ],
       "chunkNames": [
@@ -84,8 +84,8 @@
       "emitted": true
     },
     {
-      "name": "main.4235b7e5a0ff978a9373.css",
-      "size": 1647,
+      "name": "main.75997d47e9a77f3ea46e.css",
+      "size": 1704,
       "chunks": [
         0
       ],
@@ -135,7 +135,7 @@
       ],
       "assets": [
         "vendor.7392763c14ec7f797e87.bundle.js",
-        "main.4235b7e5a0ff978a9373.css",
+        "main.75997d47e9a77f3ea46e.css",
         "main.a217ac2e0391ff56baa0.bundle.js"
       ],
       "children": {
@@ -152,7 +152,7 @@
       ],
       "assets": [
         "vendor.7392763c14ec7f797e87.bundle.js",
-        "main.4235b7e5a0ff978a9373.css",
+        "main.75997d47e9a77f3ea46e.css",
         "main.a217ac2e0391ff56baa0.bundle.js"
       ],
       "children": {
@@ -167,15 +167,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 23563,
+      "size": 23646,
       "names": [
         "main"
       ],
       "files": [
-        "main.4235b7e5a0ff978a9373.css",
+        "main.75997d47e9a77f3ea46e.css",
         "main.a217ac2e0391ff56baa0.bundle.js"
       ],
-      "hash": "22eba9a8394385f2fd67",
+      "hash": "920248bb7495be4643e5",
       "siblings": [
         1
       ],
@@ -571,11 +571,11 @@
           "errors": 0,
           "warnings": 0,
           "assets": [
+            "fonts/63f874d192fb3892d88d5e26f942b5e2.eot",
             "fonts/63f874d192fb3892d88d5e26f942b5e2.woff2",
             "fonts/63f874d192fb3892d88d5e26f942b5e2.woff",
-            "fonts/63f874d192fb3892d88d5e26f942b5e2.svg",
             "fonts/63f874d192fb3892d88d5e26f942b5e2.ttf",
-            "fonts/63f874d192fb3892d88d5e26f942b5e2.eot"
+            "fonts/63f874d192fb3892d88d5e26f942b5e2.svg"
           ],
           "reasons": [
             {
@@ -602,7 +602,7 @@
           "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
           "index": 9,
           "index2": 7,
-          "size": 1731,
+          "size": 1814,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -2085,11 +2085,11 @@
       "errors": 0,
       "warnings": 0,
       "assets": [
+        "fonts/63f874d192fb3892d88d5e26f942b5e2.eot",
         "fonts/63f874d192fb3892d88d5e26f942b5e2.woff2",
         "fonts/63f874d192fb3892d88d5e26f942b5e2.woff",
-        "fonts/63f874d192fb3892d88d5e26f942b5e2.svg",
         "fonts/63f874d192fb3892d88d5e26f942b5e2.ttf",
-        "fonts/63f874d192fb3892d88d5e26f942b5e2.eot"
+        "fonts/63f874d192fb3892d88d5e26f942b5e2.svg"
       ],
       "reasons": [
         {
@@ -2116,7 +2116,7 @@
       "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
       "index": 9,
       "index2": 7,
-      "size": 1731,
+      "size": 1814,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -2181,7 +2181,7 @@
       "assets": [
         {
           "name": "index.html",
-          "size": 3946,
+          "size": 4023,
           "chunks": [
             0
           ],
@@ -2227,13 +2227,13 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 253,
+          "size": 330,
           "names": [
           ],
           "files": [
             "index.html"
           ],
-          "hash": "55401dd2d62cba108cee",
+          "hash": "ef769f4d8130a8044f96",
           "siblings": [
           ],
           "parents": [
@@ -2249,7 +2249,7 @@
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
               "index": 0,
               "index2": 0,
-              "size": 253,
+              "size": 330,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -2282,7 +2282,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "module.exports = \"<!DOCTYPE html>\\n<html lang=\\\"en\\\" >\\n<head>\\n  <meta charset=\\\"UTF-8\\\">\\n  <title>FCC - Calculator</title>\\n  \\n</head>\\n<body>\\n<!-- partial:index.partial.html -->\\n<div id='project'>\\n</div>\\n<!-- partial -->\\n\\n\\n</body>\\n</html>\";"
+              "source": "module.exports = \"<!DOCTYPE html>\\n<html lang=\\\"en\\\">\\n<head>\\n  <meta charset=\\\"UTF-8\\\">\\n  <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\n  <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\">\\n  <title>FCC-Calculator</title>\\n</head>\\n<body>\\n  <div id='project'>\\n  </div>\\n</body>\\n</html>\";"
             }
           ],
           "filteredModules": 0,
@@ -2306,7 +2306,7 @@
           "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/template.html",
           "index": 0,
           "index2": 0,
-          "size": 253,
+          "size": 330,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2339,7 +2339,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "module.exports = \"<!DOCTYPE html>\\n<html lang=\\\"en\\\" >\\n<head>\\n  <meta charset=\\\"UTF-8\\\">\\n  <title>FCC - Calculator</title>\\n  \\n</head>\\n<body>\\n<!-- partial:index.partial.html -->\\n<div id='project'>\\n</div>\\n<!-- partial -->\\n\\n\\n</body>\\n</html>\";"
+          "source": "module.exports = \"<!DOCTYPE html>\\n<html lang=\\\"en\\\">\\n<head>\\n  <meta charset=\\\"UTF-8\\\">\\n  <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\n  <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\">\\n  <title>FCC-Calculator</title>\\n</head>\\n<body>\\n  <div id='project'>\\n  </div>\\n</body>\\n</html>\";"
         }
       ],
       "filteredModules": 0,
@@ -2401,14 +2401,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 6246,
+          "size": 6329,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "778625dc48c5595c45b2",
+          "hash": "932cb12f99427cdfa7f9",
           "siblings": [
           ],
           "parents": [
@@ -2481,7 +2481,7 @@
               "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
               "index": 0,
               "index2": 7,
-              "size": 2500,
+              "size": 2583,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -2515,7 +2515,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = require(\"../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\"));\nvar ___CSS_LOADER_URL___1___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\") + \"?#iefix\");\nvar ___CSS_LOADER_URL___2___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff2\"));\nvar ___CSS_LOADER_URL___3___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff\"));\nvar ___CSS_LOADER_URL___4___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.ttf\"));\nvar ___CSS_LOADER_URL___5___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.svg\") + \"#DS-Digital\");\n// Module\nexports.push([module.id, \"@font-face{font-family:\\\"DS-Digital\\\";src:url(\" + ___CSS_LOADER_URL___0___ + \");src:url(\" + ___CSS_LOADER_URL___1___ + \") format(\\\"embedded-opentype\\\"),url(\" + ___CSS_LOADER_URL___2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL___3___ + \") format(\\\"woff\\\"),url(\" + ___CSS_LOADER_URL___4___ + \") format(\\\"truetype\\\"),url(\" + ___CSS_LOADER_URL___5___ + \") format(\\\"svg\\\")}body{background:burlywood;margin:0}.container{display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center;-webkit-box-align:center;align-items:center;height:100vh;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-flow:column wrap}.calculator{position:relative;border:5px solid teal;border-radius:10px;background:moccasin;padding:5px;width:300px}.equationScreen{min-height:1.5em;font-size:1.5em;color:coral;text-align:left;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}.calScreen{min-height:1.5em;font-size:2em;color:indigo;text-align:right;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}button{position:relative;height:75px;width:75px;border:none;background:silver;font-family:DS-Digital,monospace,serif;font-size:2em;color:blueviolet;outline:2px solid blueviolet}button:hover{outline:2px solid snow;color:snow;z-index:1;cursor:crosshair}footer{text-align:center;font-size:2em;color:orangered;font-family:DS-Digital,monospace,serif;margin-top:30px}footer:hover{color:white;-webkit-transition:color 2s ease 0.5s;transition:color 2s ease 0.5s;cursor:not-allowed}footer a{text-decoration:none}@media only screen and (max-width: 720px){.container{-webkit-transform:scale(1.3);transform:scale(1.3)}}\\n\", \"\"]);\n"
+              "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = require(\"../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\"));\nvar ___CSS_LOADER_URL___1___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\") + \"?#iefix\");\nvar ___CSS_LOADER_URL___2___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff2\"));\nvar ___CSS_LOADER_URL___3___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff\"));\nvar ___CSS_LOADER_URL___4___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.ttf\"));\nvar ___CSS_LOADER_URL___5___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.svg\") + \"#DS-Digital\");\n// Module\nexports.push([module.id, \"@font-face{font-family:\\\"DS-Digital\\\";src:url(\" + ___CSS_LOADER_URL___0___ + \");src:url(\" + ___CSS_LOADER_URL___1___ + \") format(\\\"embedded-opentype\\\"),url(\" + ___CSS_LOADER_URL___2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL___3___ + \") format(\\\"woff\\\"),url(\" + ___CSS_LOADER_URL___4___ + \") format(\\\"truetype\\\"),url(\" + ___CSS_LOADER_URL___5___ + \") format(\\\"svg\\\")}body{background:burlywood;margin:0}.container{width:100%;height:100vh;display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-flow:column wrap}.calculator{position:relative;border:5px solid teal;border-radius:10px;background:moccasin;padding:5px;width:300px}.equationScreen{min-height:1.5em;font-size:1.5em;color:coral;text-align:left;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}.calScreen{min-height:1em;font-size:2em;color:indigo;text-align:right;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}button{position:relative;height:75px;width:75px;border:none;background:silver;font-family:DS-Digital,monospace,serif;font-size:2em;color:blueviolet;outline:2px solid blueviolet}button:hover{outline:2px solid snow;color:snow;z-index:1;cursor:crosshair}footer{text-align:center;font-size:1.5em;color:orangered;font-family:DS-Digital,monospace,serif;margin-top:2em}footer:hover{color:white;-webkit-transition:color 2s ease 0.5s;transition:color 2s ease 0.5s;cursor:not-allowed}footer a{text-decoration:none}@media only screen and (min-width: 720px){.calculator{-webkit-transform:scale(1.5);transform:scale(1.5)}footer{-webkit-transform:scale(1.5);transform:scale(1.5);margin-top:8em}}\\n\", \"\"]);\n"
             },
             {
               "id": 2,
@@ -2884,7 +2884,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
           "index": 0,
           "index2": 7,
-          "size": 2500,
+          "size": 2583,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2918,7 +2918,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = require(\"../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\"));\nvar ___CSS_LOADER_URL___1___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\") + \"?#iefix\");\nvar ___CSS_LOADER_URL___2___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff2\"));\nvar ___CSS_LOADER_URL___3___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff\"));\nvar ___CSS_LOADER_URL___4___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.ttf\"));\nvar ___CSS_LOADER_URL___5___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.svg\") + \"#DS-Digital\");\n// Module\nexports.push([module.id, \"@font-face{font-family:\\\"DS-Digital\\\";src:url(\" + ___CSS_LOADER_URL___0___ + \");src:url(\" + ___CSS_LOADER_URL___1___ + \") format(\\\"embedded-opentype\\\"),url(\" + ___CSS_LOADER_URL___2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL___3___ + \") format(\\\"woff\\\"),url(\" + ___CSS_LOADER_URL___4___ + \") format(\\\"truetype\\\"),url(\" + ___CSS_LOADER_URL___5___ + \") format(\\\"svg\\\")}body{background:burlywood;margin:0}.container{display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center;-webkit-box-align:center;align-items:center;height:100vh;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-flow:column wrap}.calculator{position:relative;border:5px solid teal;border-radius:10px;background:moccasin;padding:5px;width:300px}.equationScreen{min-height:1.5em;font-size:1.5em;color:coral;text-align:left;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}.calScreen{min-height:1.5em;font-size:2em;color:indigo;text-align:right;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}button{position:relative;height:75px;width:75px;border:none;background:silver;font-family:DS-Digital,monospace,serif;font-size:2em;color:blueviolet;outline:2px solid blueviolet}button:hover{outline:2px solid snow;color:snow;z-index:1;cursor:crosshair}footer{text-align:center;font-size:2em;color:orangered;font-family:DS-Digital,monospace,serif;margin-top:30px}footer:hover{color:white;-webkit-transition:color 2s ease 0.5s;transition:color 2s ease 0.5s;cursor:not-allowed}footer a{text-decoration:none}@media only screen and (max-width: 720px){.container{-webkit-transform:scale(1.3);transform:scale(1.3)}}\\n\", \"\"]);\n"
+          "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = require(\"../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\"));\nvar ___CSS_LOADER_URL___1___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\") + \"?#iefix\");\nvar ___CSS_LOADER_URL___2___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff2\"));\nvar ___CSS_LOADER_URL___3___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff\"));\nvar ___CSS_LOADER_URL___4___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.ttf\"));\nvar ___CSS_LOADER_URL___5___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.svg\") + \"#DS-Digital\");\n// Module\nexports.push([module.id, \"@font-face{font-family:\\\"DS-Digital\\\";src:url(\" + ___CSS_LOADER_URL___0___ + \");src:url(\" + ___CSS_LOADER_URL___1___ + \") format(\\\"embedded-opentype\\\"),url(\" + ___CSS_LOADER_URL___2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL___3___ + \") format(\\\"woff\\\"),url(\" + ___CSS_LOADER_URL___4___ + \") format(\\\"truetype\\\"),url(\" + ___CSS_LOADER_URL___5___ + \") format(\\\"svg\\\")}body{background:burlywood;margin:0}.container{width:100%;height:100vh;display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-flow:column wrap}.calculator{position:relative;border:5px solid teal;border-radius:10px;background:moccasin;padding:5px;width:300px}.equationScreen{min-height:1.5em;font-size:1.5em;color:coral;text-align:left;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}.calScreen{min-height:1em;font-size:2em;color:indigo;text-align:right;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}button{position:relative;height:75px;width:75px;border:none;background:silver;font-family:DS-Digital,monospace,serif;font-size:2em;color:blueviolet;outline:2px solid blueviolet}button:hover{outline:2px solid snow;color:snow;z-index:1;cursor:crosshair}footer{text-align:center;font-size:1.5em;color:orangered;font-family:DS-Digital,monospace,serif;margin-top:2em}footer:hover{color:white;-webkit-transition:color 2s ease 0.5s;transition:color 2s ease 0.5s;cursor:not-allowed}footer a{text-decoration:none}@media only screen and (min-width: 720px){.calculator{-webkit-transform:scale(1.5);transform:scale(1.5)}footer{-webkit-transform:scale(1.5);transform:scale(1.5);margin-top:8em}}\\n\", \"\"]);\n"
         },
         {
           "id": 2,
