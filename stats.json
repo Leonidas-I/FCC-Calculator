@@ -4,15 +4,15 @@
   "warnings": [
   ],
   "version": "4.41.2",
-  "hash": "29f7f0b68d5c3f39b823",
-  "time": 26065,
-  "builtAt": 1577456197911,
+  "hash": "3b6f7e55476ae8003177",
+  "time": 29578,
+  "builtAt": 1577457775788,
   "publicPath": "",
   "outputPath": "/home/arcolinux/leonidas-project/FCC-Calculator/dist",
   "assetsByChunkName": {
     "main": [
-      "main.75997d47e9a77f3ea46e.css",
-      "main.a217ac2e0391ff56baa0.bundle.js"
+      "main.ff7ee7c16be5420651c7.css",
+      "main.069560d6930e05ee2682.bundle.js"
     ],
     "vendor": "vendor.7392763c14ec7f797e87.bundle.js"
   },
@@ -84,8 +84,8 @@
       "emitted": true
     },
     {
-      "name": "main.75997d47e9a77f3ea46e.css",
-      "size": 1704,
+      "name": "main.069560d6930e05ee2682.bundle.js",
+      "size": 16916,
       "chunks": [
         0
       ],
@@ -98,8 +98,8 @@
       "emitted": true
     },
     {
-      "name": "main.a217ac2e0391ff56baa0.bundle.js",
-      "size": 16914,
+      "name": "main.ff7ee7c16be5420651c7.css",
+      "size": 1678,
       "chunks": [
         0
       ],
@@ -135,8 +135,8 @@
       ],
       "assets": [
         "vendor.7392763c14ec7f797e87.bundle.js",
-        "main.75997d47e9a77f3ea46e.css",
-        "main.a217ac2e0391ff56baa0.bundle.js"
+        "main.ff7ee7c16be5420651c7.css",
+        "main.069560d6930e05ee2682.bundle.js"
       ],
       "children": {
       },
@@ -152,8 +152,8 @@
       ],
       "assets": [
         "vendor.7392763c14ec7f797e87.bundle.js",
-        "main.75997d47e9a77f3ea46e.css",
-        "main.a217ac2e0391ff56baa0.bundle.js"
+        "main.ff7ee7c16be5420651c7.css",
+        "main.069560d6930e05ee2682.bundle.js"
       ],
       "children": {
       },
@@ -167,15 +167,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 23646,
+      "size": 23581,
       "names": [
         "main"
       ],
       "files": [
-        "main.75997d47e9a77f3ea46e.css",
-        "main.a217ac2e0391ff56baa0.bundle.js"
+        "main.ff7ee7c16be5420651c7.css",
+        "main.069560d6930e05ee2682.bundle.js"
       ],
-      "hash": "920248bb7495be4643e5",
+      "hash": "919d46639e96d4d1c5b0",
       "siblings": [
         1
       ],
@@ -320,7 +320,7 @@
           "name": "./src/button.jsx",
           "index": 11,
           "index2": 9,
-          "size": 5662,
+          "size": 5664,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -377,7 +377,7 @@
           "optimizationBailout": [
           ],
           "depth": 2,
-          "source": "function _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nimport React from 'react';\n\nvar Button =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(Button, _React$Component);\n\n  function Button() {\n    _classCallCheck(this, Button);\n\n    return _possibleConstructorReturn(this, _getPrototypeOf(Button).apply(this, arguments));\n  }\n\n  _createClass(Button, [{\n    key: \"render\",\n    value: function render() {\n      {\n        /*declare multiple varible in 1 line use ',' between variable and use ';' when all declared*/\n      }\n      var clearStyle = {\n        backgroundColor: 'lime'\n      },\n          deleteStyle = {\n        backgroundColor: 'cornflowerblue',\n        height: '75px',\n        width: '150px'\n      },\n          operatorStyle = {\n        backgroundColor: 'chocolate'\n      },\n          equalStyle = {\n        backgroundColor: 'cyan'\n      },\n          zeroStyle = {\n        backgroundColor: 'grey',\n        height: '75px',\n        width: '150px'\n      };\n      return React.createElement(\"div\", null, React.createElement(\"button\", {\n        id: \"clear\",\n        value: \"AC\",\n        onClick: this.props.init,\n        style: clearStyle\n      }, \"AC\"), React.createElement(\"button\", {\n        id: \"delete\",\n        value: \"Del\",\n        onClick: this.props.del,\n        style: deleteStyle\n      }, \"DEL\"), React.createElement(\"button\", {\n        id: \"divide\",\n        value: \"/\",\n        onClick: this.props.operators,\n        style: operatorStyle\n      }, \"/\"), React.createElement(\"button\", {\n        id: \"seven\",\n        value: \"7\",\n        onClick: this.props.numbers\n      }, \"7\"), React.createElement(\"button\", {\n        id: \"eight\",\n        value: \"8\",\n        onClick: this.props.numbers\n      }, \"8\"), React.createElement(\"button\", {\n        id: \"nine\",\n        value: \"9\",\n        onClick: this.props.numbers\n      }, \"9\"), React.createElement(\"button\", {\n        id: \"multiply\",\n        value: \"*\",\n        onClick: this.props.operators,\n        style: operatorStyle\n      }, \"x\"), React.createElement(\"button\", {\n        id: \"four\",\n        value: \"4\",\n        onClick: this.props.numbers\n      }, \"4\"), React.createElement(\"button\", {\n        id: \"five\",\n        value: \"5\",\n        onClick: this.props.numbers\n      }, \"5\"), React.createElement(\"button\", {\n        id: \"six\",\n        value: \"6\",\n        onClick: this.props.numbers\n      }, \"6\"), React.createElement(\"button\", {\n        id: \"subtract\",\n        value: \"-\",\n        onClick: this.props.operators,\n        style: operatorStyle\n      }, \"-\"), React.createElement(\"button\", {\n        id: \"one\",\n        value: \"1\",\n        onClick: this.props.numbers\n      }, \"1\"), React.createElement(\"button\", {\n        id: \"two\",\n        value: \"2\",\n        onClick: this.props.numbers\n      }, \"2\"), React.createElement(\"button\", {\n        id: \"three\",\n        value: \"3\",\n        onClick: this.props.numbers\n      }, \"3\"), React.createElement(\"button\", {\n        id: \"add\",\n        value: \"+\",\n        onClick: this.props.operators,\n        style: operatorStyle\n      }, \"+\"), React.createElement(\"button\", {\n        id: \"zero\",\n        value: \"0\",\n        onClick: this.props.numbers,\n        style: zeroStyle\n      }, \"0\"), React.createElement(\"button\", {\n        id: \"decimal\",\n        value: \".\",\n        onClick: this.props.decimal\n      }, \".\"), React.createElement(\"button\", {\n        id: \"equals\",\n        value: \"=\",\n        onClick: this.props.equals,\n        style: equalStyle\n      }, \"=\"));\n    }\n  }]);\n\n  return Button;\n}(React.Component);\n\nexport default Button;"
+          "source": "function _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nimport React from 'react';\n\nvar Button =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(Button, _React$Component);\n\n  function Button() {\n    _classCallCheck(this, Button);\n\n    return _possibleConstructorReturn(this, _getPrototypeOf(Button).apply(this, arguments));\n  }\n\n  _createClass(Button, [{\n    key: \"render\",\n    value: function render() {\n      {\n        /*declare multiple varible in 1 line use ',' between variable and use ';' when all declared*/\n      }\n      var clearStyle = {\n        backgroundColor: 'lime'\n      },\n          deleteStyle = {\n        backgroundColor: 'cornflowerblue',\n        height: '100px',\n        width: '200px'\n      },\n          operatorStyle = {\n        backgroundColor: 'chocolate'\n      },\n          equalStyle = {\n        backgroundColor: 'cyan'\n      },\n          zeroStyle = {\n        backgroundColor: 'grey',\n        height: '100px',\n        width: '200px'\n      };\n      return React.createElement(\"div\", null, React.createElement(\"button\", {\n        id: \"clear\",\n        value: \"AC\",\n        onClick: this.props.init,\n        style: clearStyle\n      }, \"AC\"), React.createElement(\"button\", {\n        id: \"delete\",\n        value: \"Del\",\n        onClick: this.props.del,\n        style: deleteStyle\n      }, \"DEL\"), React.createElement(\"button\", {\n        id: \"divide\",\n        value: \"/\",\n        onClick: this.props.operators,\n        style: operatorStyle\n      }, \"/\"), React.createElement(\"button\", {\n        id: \"seven\",\n        value: \"7\",\n        onClick: this.props.numbers\n      }, \"7\"), React.createElement(\"button\", {\n        id: \"eight\",\n        value: \"8\",\n        onClick: this.props.numbers\n      }, \"8\"), React.createElement(\"button\", {\n        id: \"nine\",\n        value: \"9\",\n        onClick: this.props.numbers\n      }, \"9\"), React.createElement(\"button\", {\n        id: \"multiply\",\n        value: \"*\",\n        onClick: this.props.operators,\n        style: operatorStyle\n      }, \"x\"), React.createElement(\"button\", {\n        id: \"four\",\n        value: \"4\",\n        onClick: this.props.numbers\n      }, \"4\"), React.createElement(\"button\", {\n        id: \"five\",\n        value: \"5\",\n        onClick: this.props.numbers\n      }, \"5\"), React.createElement(\"button\", {\n        id: \"six\",\n        value: \"6\",\n        onClick: this.props.numbers\n      }, \"6\"), React.createElement(\"button\", {\n        id: \"subtract\",\n        value: \"-\",\n        onClick: this.props.operators,\n        style: operatorStyle\n      }, \"-\"), React.createElement(\"button\", {\n        id: \"one\",\n        value: \"1\",\n        onClick: this.props.numbers\n      }, \"1\"), React.createElement(\"button\", {\n        id: \"two\",\n        value: \"2\",\n        onClick: this.props.numbers\n      }, \"2\"), React.createElement(\"button\", {\n        id: \"three\",\n        value: \"3\",\n        onClick: this.props.numbers\n      }, \"3\"), React.createElement(\"button\", {\n        id: \"add\",\n        value: \"+\",\n        onClick: this.props.operators,\n        style: operatorStyle\n      }, \"+\"), React.createElement(\"button\", {\n        id: \"zero\",\n        value: \"0\",\n        onClick: this.props.numbers,\n        style: zeroStyle\n      }, \"0\"), React.createElement(\"button\", {\n        id: \"decimal\",\n        value: \".\",\n        onClick: this.props.decimal\n      }, \".\"), React.createElement(\"button\", {\n        id: \"equals\",\n        value: \"=\",\n        onClick: this.props.equals,\n        style: equalStyle\n      }, \"=\"));\n    }\n  }]);\n\n  return Button;\n}(React.Component);\n\nexport default Button;"
         },
         {
           "id": 5,
@@ -571,10 +571,10 @@
           "errors": 0,
           "warnings": 0,
           "assets": [
-            "fonts/63f874d192fb3892d88d5e26f942b5e2.eot",
             "fonts/63f874d192fb3892d88d5e26f942b5e2.woff2",
             "fonts/63f874d192fb3892d88d5e26f942b5e2.woff",
             "fonts/63f874d192fb3892d88d5e26f942b5e2.ttf",
+            "fonts/63f874d192fb3892d88d5e26f942b5e2.eot",
             "fonts/63f874d192fb3892d88d5e26f942b5e2.svg"
           ],
           "reasons": [
@@ -602,7 +602,7 @@
           "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
           "index": 9,
           "index2": 7,
-          "size": 1814,
+          "size": 1747,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -1728,7 +1728,7 @@
       "name": "./src/button.jsx",
       "index": 11,
       "index2": 9,
-      "size": 5662,
+      "size": 5664,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -1785,7 +1785,7 @@
       "optimizationBailout": [
       ],
       "depth": 2,
-      "source": "function _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nimport React from 'react';\n\nvar Button =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(Button, _React$Component);\n\n  function Button() {\n    _classCallCheck(this, Button);\n\n    return _possibleConstructorReturn(this, _getPrototypeOf(Button).apply(this, arguments));\n  }\n\n  _createClass(Button, [{\n    key: \"render\",\n    value: function render() {\n      {\n        /*declare multiple varible in 1 line use ',' between variable and use ';' when all declared*/\n      }\n      var clearStyle = {\n        backgroundColor: 'lime'\n      },\n          deleteStyle = {\n        backgroundColor: 'cornflowerblue',\n        height: '75px',\n        width: '150px'\n      },\n          operatorStyle = {\n        backgroundColor: 'chocolate'\n      },\n          equalStyle = {\n        backgroundColor: 'cyan'\n      },\n          zeroStyle = {\n        backgroundColor: 'grey',\n        height: '75px',\n        width: '150px'\n      };\n      return React.createElement(\"div\", null, React.createElement(\"button\", {\n        id: \"clear\",\n        value: \"AC\",\n        onClick: this.props.init,\n        style: clearStyle\n      }, \"AC\"), React.createElement(\"button\", {\n        id: \"delete\",\n        value: \"Del\",\n        onClick: this.props.del,\n        style: deleteStyle\n      }, \"DEL\"), React.createElement(\"button\", {\n        id: \"divide\",\n        value: \"/\",\n        onClick: this.props.operators,\n        style: operatorStyle\n      }, \"/\"), React.createElement(\"button\", {\n        id: \"seven\",\n        value: \"7\",\n        onClick: this.props.numbers\n      }, \"7\"), React.createElement(\"button\", {\n        id: \"eight\",\n        value: \"8\",\n        onClick: this.props.numbers\n      }, \"8\"), React.createElement(\"button\", {\n        id: \"nine\",\n        value: \"9\",\n        onClick: this.props.numbers\n      }, \"9\"), React.createElement(\"button\", {\n        id: \"multiply\",\n        value: \"*\",\n        onClick: this.props.operators,\n        style: operatorStyle\n      }, \"x\"), React.createElement(\"button\", {\n        id: \"four\",\n        value: \"4\",\n        onClick: this.props.numbers\n      }, \"4\"), React.createElement(\"button\", {\n        id: \"five\",\n        value: \"5\",\n        onClick: this.props.numbers\n      }, \"5\"), React.createElement(\"button\", {\n        id: \"six\",\n        value: \"6\",\n        onClick: this.props.numbers\n      }, \"6\"), React.createElement(\"button\", {\n        id: \"subtract\",\n        value: \"-\",\n        onClick: this.props.operators,\n        style: operatorStyle\n      }, \"-\"), React.createElement(\"button\", {\n        id: \"one\",\n        value: \"1\",\n        onClick: this.props.numbers\n      }, \"1\"), React.createElement(\"button\", {\n        id: \"two\",\n        value: \"2\",\n        onClick: this.props.numbers\n      }, \"2\"), React.createElement(\"button\", {\n        id: \"three\",\n        value: \"3\",\n        onClick: this.props.numbers\n      }, \"3\"), React.createElement(\"button\", {\n        id: \"add\",\n        value: \"+\",\n        onClick: this.props.operators,\n        style: operatorStyle\n      }, \"+\"), React.createElement(\"button\", {\n        id: \"zero\",\n        value: \"0\",\n        onClick: this.props.numbers,\n        style: zeroStyle\n      }, \"0\"), React.createElement(\"button\", {\n        id: \"decimal\",\n        value: \".\",\n        onClick: this.props.decimal\n      }, \".\"), React.createElement(\"button\", {\n        id: \"equals\",\n        value: \"=\",\n        onClick: this.props.equals,\n        style: equalStyle\n      }, \"=\"));\n    }\n  }]);\n\n  return Button;\n}(React.Component);\n\nexport default Button;"
+      "source": "function _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nimport React from 'react';\n\nvar Button =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(Button, _React$Component);\n\n  function Button() {\n    _classCallCheck(this, Button);\n\n    return _possibleConstructorReturn(this, _getPrototypeOf(Button).apply(this, arguments));\n  }\n\n  _createClass(Button, [{\n    key: \"render\",\n    value: function render() {\n      {\n        /*declare multiple varible in 1 line use ',' between variable and use ';' when all declared*/\n      }\n      var clearStyle = {\n        backgroundColor: 'lime'\n      },\n          deleteStyle = {\n        backgroundColor: 'cornflowerblue',\n        height: '100px',\n        width: '200px'\n      },\n          operatorStyle = {\n        backgroundColor: 'chocolate'\n      },\n          equalStyle = {\n        backgroundColor: 'cyan'\n      },\n          zeroStyle = {\n        backgroundColor: 'grey',\n        height: '100px',\n        width: '200px'\n      };\n      return React.createElement(\"div\", null, React.createElement(\"button\", {\n        id: \"clear\",\n        value: \"AC\",\n        onClick: this.props.init,\n        style: clearStyle\n      }, \"AC\"), React.createElement(\"button\", {\n        id: \"delete\",\n        value: \"Del\",\n        onClick: this.props.del,\n        style: deleteStyle\n      }, \"DEL\"), React.createElement(\"button\", {\n        id: \"divide\",\n        value: \"/\",\n        onClick: this.props.operators,\n        style: operatorStyle\n      }, \"/\"), React.createElement(\"button\", {\n        id: \"seven\",\n        value: \"7\",\n        onClick: this.props.numbers\n      }, \"7\"), React.createElement(\"button\", {\n        id: \"eight\",\n        value: \"8\",\n        onClick: this.props.numbers\n      }, \"8\"), React.createElement(\"button\", {\n        id: \"nine\",\n        value: \"9\",\n        onClick: this.props.numbers\n      }, \"9\"), React.createElement(\"button\", {\n        id: \"multiply\",\n        value: \"*\",\n        onClick: this.props.operators,\n        style: operatorStyle\n      }, \"x\"), React.createElement(\"button\", {\n        id: \"four\",\n        value: \"4\",\n        onClick: this.props.numbers\n      }, \"4\"), React.createElement(\"button\", {\n        id: \"five\",\n        value: \"5\",\n        onClick: this.props.numbers\n      }, \"5\"), React.createElement(\"button\", {\n        id: \"six\",\n        value: \"6\",\n        onClick: this.props.numbers\n      }, \"6\"), React.createElement(\"button\", {\n        id: \"subtract\",\n        value: \"-\",\n        onClick: this.props.operators,\n        style: operatorStyle\n      }, \"-\"), React.createElement(\"button\", {\n        id: \"one\",\n        value: \"1\",\n        onClick: this.props.numbers\n      }, \"1\"), React.createElement(\"button\", {\n        id: \"two\",\n        value: \"2\",\n        onClick: this.props.numbers\n      }, \"2\"), React.createElement(\"button\", {\n        id: \"three\",\n        value: \"3\",\n        onClick: this.props.numbers\n      }, \"3\"), React.createElement(\"button\", {\n        id: \"add\",\n        value: \"+\",\n        onClick: this.props.operators,\n        style: operatorStyle\n      }, \"+\"), React.createElement(\"button\", {\n        id: \"zero\",\n        value: \"0\",\n        onClick: this.props.numbers,\n        style: zeroStyle\n      }, \"0\"), React.createElement(\"button\", {\n        id: \"decimal\",\n        value: \".\",\n        onClick: this.props.decimal\n      }, \".\"), React.createElement(\"button\", {\n        id: \"equals\",\n        value: \"=\",\n        onClick: this.props.equals,\n        style: equalStyle\n      }, \"=\"));\n    }\n  }]);\n\n  return Button;\n}(React.Component);\n\nexport default Button;"
     },
     {
       "id": 5,
@@ -2085,10 +2085,10 @@
       "errors": 0,
       "warnings": 0,
       "assets": [
-        "fonts/63f874d192fb3892d88d5e26f942b5e2.eot",
         "fonts/63f874d192fb3892d88d5e26f942b5e2.woff2",
         "fonts/63f874d192fb3892d88d5e26f942b5e2.woff",
         "fonts/63f874d192fb3892d88d5e26f942b5e2.ttf",
+        "fonts/63f874d192fb3892d88d5e26f942b5e2.eot",
         "fonts/63f874d192fb3892d88d5e26f942b5e2.svg"
       ],
       "reasons": [
@@ -2116,7 +2116,7 @@
       "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
       "index": 9,
       "index2": 7,
-      "size": 1814,
+      "size": 1747,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -2401,14 +2401,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 6329,
+          "size": 6262,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "932cb12f99427cdfa7f9",
+          "hash": "ded8ac881bbc1439f4ca",
           "siblings": [
           ],
           "parents": [
@@ -2481,7 +2481,7 @@
               "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
               "index": 0,
               "index2": 7,
-              "size": 2583,
+              "size": 2516,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -2515,7 +2515,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = require(\"../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\"));\nvar ___CSS_LOADER_URL___1___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\") + \"?#iefix\");\nvar ___CSS_LOADER_URL___2___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff2\"));\nvar ___CSS_LOADER_URL___3___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff\"));\nvar ___CSS_LOADER_URL___4___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.ttf\"));\nvar ___CSS_LOADER_URL___5___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.svg\") + \"#DS-Digital\");\n// Module\nexports.push([module.id, \"@font-face{font-family:\\\"DS-Digital\\\";src:url(\" + ___CSS_LOADER_URL___0___ + \");src:url(\" + ___CSS_LOADER_URL___1___ + \") format(\\\"embedded-opentype\\\"),url(\" + ___CSS_LOADER_URL___2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL___3___ + \") format(\\\"woff\\\"),url(\" + ___CSS_LOADER_URL___4___ + \") format(\\\"truetype\\\"),url(\" + ___CSS_LOADER_URL___5___ + \") format(\\\"svg\\\")}body{background:burlywood;margin:0}.container{width:100%;height:100vh;display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-flow:column wrap}.calculator{position:relative;border:5px solid teal;border-radius:10px;background:moccasin;padding:5px;width:300px}.equationScreen{min-height:1.5em;font-size:1.5em;color:coral;text-align:left;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}.calScreen{min-height:1em;font-size:2em;color:indigo;text-align:right;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}button{position:relative;height:75px;width:75px;border:none;background:silver;font-family:DS-Digital,monospace,serif;font-size:2em;color:blueviolet;outline:2px solid blueviolet}button:hover{outline:2px solid snow;color:snow;z-index:1;cursor:crosshair}footer{text-align:center;font-size:1.5em;color:orangered;font-family:DS-Digital,monospace,serif;margin-top:2em}footer:hover{color:white;-webkit-transition:color 2s ease 0.5s;transition:color 2s ease 0.5s;cursor:not-allowed}footer a{text-decoration:none}@media only screen and (min-width: 720px){.calculator{-webkit-transform:scale(1.5);transform:scale(1.5)}footer{-webkit-transform:scale(1.5);transform:scale(1.5);margin-top:8em}}\\n\", \"\"]);\n"
+              "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = require(\"../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\"));\nvar ___CSS_LOADER_URL___1___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\") + \"?#iefix\");\nvar ___CSS_LOADER_URL___2___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff2\"));\nvar ___CSS_LOADER_URL___3___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff\"));\nvar ___CSS_LOADER_URL___4___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.ttf\"));\nvar ___CSS_LOADER_URL___5___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.svg\") + \"#DS-Digital\");\n// Module\nexports.push([module.id, \"@font-face{font-family:\\\"DS-Digital\\\";src:url(\" + ___CSS_LOADER_URL___0___ + \");src:url(\" + ___CSS_LOADER_URL___1___ + \") format(\\\"embedded-opentype\\\"),url(\" + ___CSS_LOADER_URL___2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL___3___ + \") format(\\\"woff\\\"),url(\" + ___CSS_LOADER_URL___4___ + \") format(\\\"truetype\\\"),url(\" + ___CSS_LOADER_URL___5___ + \") format(\\\"svg\\\")}body{background:burlywood;margin:0}.container{width:100%;height:100vh;display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-flow:column nowrap}.calculator{position:relative;border:5px solid teal;border-radius:10px;background:moccasin;padding:5px;width:400px}.equationScreen{min-height:2em;font-size:2em;color:coral;text-align:left;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}.calScreen{min-height:1.5em;font-size:3em;color:indigo;text-align:right;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}button{position:relative;height:100px;width:100px;border:none;background:silver;font-family:DS-Digital,monospace,serif;font-size:2.5em;color:blueviolet;outline:2px solid blueviolet}button:hover{outline:2px solid snow;color:snow;z-index:1;cursor:crosshair}footer{text-align:center;font-size:2.5em;color:orangered;font-family:DS-Digital,monospace,serif;margin-top:2em}footer:hover{color:white;-webkit-transition:color 2s ease 0.5s;transition:color 2s ease 0.5s;cursor:not-allowed}footer a{text-decoration:none}@media only screen and (max-width: 720px){.container{-webkit-transform:scale(0.75);transform:scale(0.75)}}\\n\", \"\"]);\n"
             },
             {
               "id": 2,
@@ -2884,7 +2884,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/style.scss",
           "index": 0,
           "index2": 7,
-          "size": 2583,
+          "size": 2516,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2918,7 +2918,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = require(\"../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\"));\nvar ___CSS_LOADER_URL___1___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\") + \"?#iefix\");\nvar ___CSS_LOADER_URL___2___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff2\"));\nvar ___CSS_LOADER_URL___3___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff\"));\nvar ___CSS_LOADER_URL___4___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.ttf\"));\nvar ___CSS_LOADER_URL___5___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.svg\") + \"#DS-Digital\");\n// Module\nexports.push([module.id, \"@font-face{font-family:\\\"DS-Digital\\\";src:url(\" + ___CSS_LOADER_URL___0___ + \");src:url(\" + ___CSS_LOADER_URL___1___ + \") format(\\\"embedded-opentype\\\"),url(\" + ___CSS_LOADER_URL___2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL___3___ + \") format(\\\"woff\\\"),url(\" + ___CSS_LOADER_URL___4___ + \") format(\\\"truetype\\\"),url(\" + ___CSS_LOADER_URL___5___ + \") format(\\\"svg\\\")}body{background:burlywood;margin:0}.container{width:100%;height:100vh;display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-flow:column wrap}.calculator{position:relative;border:5px solid teal;border-radius:10px;background:moccasin;padding:5px;width:300px}.equationScreen{min-height:1.5em;font-size:1.5em;color:coral;text-align:left;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}.calScreen{min-height:1em;font-size:2em;color:indigo;text-align:right;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}button{position:relative;height:75px;width:75px;border:none;background:silver;font-family:DS-Digital,monospace,serif;font-size:2em;color:blueviolet;outline:2px solid blueviolet}button:hover{outline:2px solid snow;color:snow;z-index:1;cursor:crosshair}footer{text-align:center;font-size:1.5em;color:orangered;font-family:DS-Digital,monospace,serif;margin-top:2em}footer:hover{color:white;-webkit-transition:color 2s ease 0.5s;transition:color 2s ease 0.5s;cursor:not-allowed}footer a{text-decoration:none}@media only screen and (min-width: 720px){.calculator{-webkit-transform:scale(1.5);transform:scale(1.5)}footer{-webkit-transform:scale(1.5);transform:scale(1.5);margin-top:8em}}\\n\", \"\"]);\n"
+          "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = require(\"../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\"));\nvar ___CSS_LOADER_URL___1___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\") + \"?#iefix\");\nvar ___CSS_LOADER_URL___2___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff2\"));\nvar ___CSS_LOADER_URL___3___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff\"));\nvar ___CSS_LOADER_URL___4___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.ttf\"));\nvar ___CSS_LOADER_URL___5___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.svg\") + \"#DS-Digital\");\n// Module\nexports.push([module.id, \"@font-face{font-family:\\\"DS-Digital\\\";src:url(\" + ___CSS_LOADER_URL___0___ + \");src:url(\" + ___CSS_LOADER_URL___1___ + \") format(\\\"embedded-opentype\\\"),url(\" + ___CSS_LOADER_URL___2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL___3___ + \") format(\\\"woff\\\"),url(\" + ___CSS_LOADER_URL___4___ + \") format(\\\"truetype\\\"),url(\" + ___CSS_LOADER_URL___5___ + \") format(\\\"svg\\\")}body{background:burlywood;margin:0}.container{width:100%;height:100vh;display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-flow:column nowrap}.calculator{position:relative;border:5px solid teal;border-radius:10px;background:moccasin;padding:5px;width:400px}.equationScreen{min-height:2em;font-size:2em;color:coral;text-align:left;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}.calScreen{min-height:1.5em;font-size:3em;color:indigo;text-align:right;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}button{position:relative;height:100px;width:100px;border:none;background:silver;font-family:DS-Digital,monospace,serif;font-size:2.5em;color:blueviolet;outline:2px solid blueviolet}button:hover{outline:2px solid snow;color:snow;z-index:1;cursor:crosshair}footer{text-align:center;font-size:2.5em;color:orangered;font-family:DS-Digital,monospace,serif;margin-top:2em}footer:hover{color:white;-webkit-transition:color 2s ease 0.5s;transition:color 2s ease 0.5s;cursor:not-allowed}footer a{text-decoration:none}@media only screen and (max-width: 720px){.container{-webkit-transform:scale(0.75);transform:scale(0.75)}}\\n\", \"\"]);\n"
         },
         {
           "id": 2,
