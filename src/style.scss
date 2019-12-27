@@ -15,18 +15,21 @@ https://www.onlinewebfonts.com/download/1b40984d7a10bcae004877dc48f4cc8f */
 // @import url(https://db.onlinewebfonts.com/c/1b40984d7a10bcae004877dc48f4cc8f?family=Digital);
 
 $numColor: silver;
+$fontFamily: DS-Digital, monospace, serif;
 
 
 body {
   background: burlywood;
+  margin: 0;
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column wrap;
+  width: 100%;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
 }
 
 .calculator {
@@ -35,37 +38,37 @@ body {
   border-radius: 10px;
   background: moccasin;
   padding: 5px;
-  width: 300px;
+  width: 400px;
 }
 
 .equationScreen {
-  min-height: 1.5em;
-  font-size: 1.5em;
+  min-height: 2em;
+  font-size: 2em;
   color: coral;
   text-align: left;
-  font-family: DS-Digital, monospace, serif;
+  font-family: $fontFamily;
   line-height: 1.5;
   word-wrap: break-word;
 }
 
 .calScreen {
   min-height: 1.5em;
-  font-size: 2em;
+  font-size: 3em;
   color: indigo;
   text-align: right;
-  font-family: DS-Digital, monospace, serif;
+  font-family: $fontFamily;
   line-height: 1.5;
   word-wrap: break-word;
 }
 
 button {
   position: relative;
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
   border: none;
   background: $numColor;
-  font-family: DS-Digital, monospace, serif;
-  font-size: 2em;
+  font-family: $fontFamily;
+  font-size: 2.5em;
   color: blueviolet;
   outline: 2px solid blueviolet;
   &:hover {
@@ -78,10 +81,10 @@ button {
 
 footer {
   text-align: center;
-  font-size: 2em;
+  font-size: 2.5em;
   color: orangered;
-  font-family: DS-Digital, monospace, serif;
-  margin-top: 30px;
+  font-family: $fontFamily;
+  margin-top: 1em;
   &:hover {
     color: white;
     transition: color 2s ease 0.5s;
@@ -90,8 +93,8 @@ footer {
   a { text-decoration: none;}
 }
 
-@media only screen and (min-width: 720px) {
-  #project {
-    transform: scale(1.4);
+@media only screen and (max-width: 720px) {
+  .container {
+    transform: scale(0.6);
   }
 }

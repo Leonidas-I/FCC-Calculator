@@ -8,8 +8,8 @@ class Button extends React.Component {
         },
         deleteStyle = {
           backgroundColor: 'cornflowerblue',
-          height: '75px',
-          width:'150px'
+          height: '100px',
+          width:'200px'
         },
         operatorStyle = {
           backgroundColor: 'chocolate'
@@ -19,8 +19,8 @@ class Button extends React.Component {
         },
         zeroStyle = {
           backgroundColor: 'grey',
-          height: '75px',
-          width:'150px'
+          height: '100px',
+          width:'200px'
         };
     
     return (
