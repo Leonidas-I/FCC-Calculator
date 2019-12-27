@@ -4,14 +4,14 @@
   "warnings": [
   ],
   "version": "4.41.2",
-  "hash": "dbadb14c8cff500a39cc",
-  "time": 15326,
-  "builtAt": 1577458013314,
+  "hash": "badacd2f8d025b9b0b18",
+  "time": 15074,
+  "builtAt": 1577458447885,
   "publicPath": "",
   "outputPath": "/home/arcolinux/leonidas-project/FCC-Calculator/dist",
   "assetsByChunkName": {
     "main": [
-      "main.9a9d7de43a667c8eecd6.css",
+      "main.c3658e2bfebd16cb567b.css",
       "main.069560d6930e05ee2682.bundle.js"
     ],
     "vendor": "vendor.7392763c14ec7f797e87.bundle.js"
@@ -98,7 +98,7 @@
       "emitted": true
     },
     {
-      "name": "main.9a9d7de43a667c8eecd6.css",
+      "name": "main.c3658e2bfebd16cb567b.css",
       "size": 1676,
       "chunks": [
         0
@@ -135,7 +135,7 @@
       ],
       "assets": [
         "vendor.7392763c14ec7f797e87.bundle.js",
-        "main.9a9d7de43a667c8eecd6.css",
+        "main.c3658e2bfebd16cb567b.css",
         "main.069560d6930e05ee2682.bundle.js"
       ],
       "children": {
@@ -152,7 +152,7 @@
       ],
       "assets": [
         "vendor.7392763c14ec7f797e87.bundle.js",
-        "main.9a9d7de43a667c8eecd6.css",
+        "main.c3658e2bfebd16cb567b.css",
         "main.069560d6930e05ee2682.bundle.js"
       ],
       "children": {
@@ -172,10 +172,10 @@
         "main"
       ],
       "files": [
-        "main.9a9d7de43a667c8eecd6.css",
+        "main.c3658e2bfebd16cb567b.css",
         "main.069560d6930e05ee2682.bundle.js"
       ],
-      "hash": "791108d08a66a4568b9d",
+      "hash": "06d0d10cd48b6ace8537",
       "siblings": [
         1
       ],
@@ -2408,7 +2408,7 @@
           "files": [
             "*"
           ],
-          "hash": "d2fa897ffedd733b2435",
+          "hash": "f58d4da50d0acaf13c2d",
           "siblings": [
           ],
           "parents": [
@@ -2515,7 +2515,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = require(\"../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\"));\nvar ___CSS_LOADER_URL___1___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\") + \"?#iefix\");\nvar ___CSS_LOADER_URL___2___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff2\"));\nvar ___CSS_LOADER_URL___3___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff\"));\nvar ___CSS_LOADER_URL___4___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.ttf\"));\nvar ___CSS_LOADER_URL___5___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.svg\") + \"#DS-Digital\");\n// Module\nexports.push([module.id, \"@font-face{font-family:\\\"DS-Digital\\\";src:url(\" + ___CSS_LOADER_URL___0___ + \");src:url(\" + ___CSS_LOADER_URL___1___ + \") format(\\\"embedded-opentype\\\"),url(\" + ___CSS_LOADER_URL___2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL___3___ + \") format(\\\"woff\\\"),url(\" + ___CSS_LOADER_URL___4___ + \") format(\\\"truetype\\\"),url(\" + ___CSS_LOADER_URL___5___ + \") format(\\\"svg\\\")}body{background:burlywood;margin:0}.container{width:100%;height:100vh;display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-flow:column nowrap}.calculator{position:relative;border:5px solid teal;border-radius:10px;background:moccasin;padding:5px;width:400px}.equationScreen{min-height:2em;font-size:2em;color:coral;text-align:left;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}.calScreen{min-height:1.5em;font-size:3em;color:indigo;text-align:right;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}button{position:relative;height:100px;width:100px;border:none;background:silver;font-family:DS-Digital,monospace,serif;font-size:2.5em;color:blueviolet;outline:2px solid blueviolet}button:hover{outline:2px solid snow;color:snow;z-index:1;cursor:crosshair}footer{text-align:center;font-size:2.5em;color:orangered;font-family:DS-Digital,monospace,serif;margin-top:2em}footer:hover{color:white;-webkit-transition:color 2s ease 0.5s;transition:color 2s ease 0.5s;cursor:not-allowed}footer a{text-decoration:none}@media only screen and (max-width: 720px){.container{-webkit-transform:scale(0.7);transform:scale(0.7)}}\\n\", \"\"]);\n"
+              "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = require(\"../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\"));\nvar ___CSS_LOADER_URL___1___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\") + \"?#iefix\");\nvar ___CSS_LOADER_URL___2___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff2\"));\nvar ___CSS_LOADER_URL___3___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff\"));\nvar ___CSS_LOADER_URL___4___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.ttf\"));\nvar ___CSS_LOADER_URL___5___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.svg\") + \"#DS-Digital\");\n// Module\nexports.push([module.id, \"@font-face{font-family:\\\"DS-Digital\\\";src:url(\" + ___CSS_LOADER_URL___0___ + \");src:url(\" + ___CSS_LOADER_URL___1___ + \") format(\\\"embedded-opentype\\\"),url(\" + ___CSS_LOADER_URL___2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL___3___ + \") format(\\\"woff\\\"),url(\" + ___CSS_LOADER_URL___4___ + \") format(\\\"truetype\\\"),url(\" + ___CSS_LOADER_URL___5___ + \") format(\\\"svg\\\")}body{background:burlywood;margin:0}.container{width:100%;height:100vh;display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-flow:column nowrap}.calculator{position:relative;border:5px solid teal;border-radius:10px;background:moccasin;padding:5px;width:400px}.equationScreen{min-height:2em;font-size:2em;color:coral;text-align:left;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}.calScreen{min-height:1.5em;font-size:3em;color:indigo;text-align:right;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}button{position:relative;height:100px;width:100px;border:none;background:silver;font-family:DS-Digital,monospace,serif;font-size:2.5em;color:blueviolet;outline:2px solid blueviolet}button:hover{outline:2px solid snow;color:snow;z-index:1;cursor:crosshair}footer{text-align:center;font-size:2.5em;color:orangered;font-family:DS-Digital,monospace,serif;margin-top:1em}footer:hover{color:white;-webkit-transition:color 2s ease 0.5s;transition:color 2s ease 0.5s;cursor:not-allowed}footer a{text-decoration:none}@media only screen and (max-width: 720px){.container{-webkit-transform:scale(0.6);transform:scale(0.6)}}\\n\", \"\"]);\n"
             },
             {
               "id": 2,
@@ -2918,7 +2918,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = require(\"../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\"));\nvar ___CSS_LOADER_URL___1___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\") + \"?#iefix\");\nvar ___CSS_LOADER_URL___2___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff2\"));\nvar ___CSS_LOADER_URL___3___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff\"));\nvar ___CSS_LOADER_URL___4___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.ttf\"));\nvar ___CSS_LOADER_URL___5___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.svg\") + \"#DS-Digital\");\n// Module\nexports.push([module.id, \"@font-face{font-family:\\\"DS-Digital\\\";src:url(\" + ___CSS_LOADER_URL___0___ + \");src:url(\" + ___CSS_LOADER_URL___1___ + \") format(\\\"embedded-opentype\\\"),url(\" + ___CSS_LOADER_URL___2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL___3___ + \") format(\\\"woff\\\"),url(\" + ___CSS_LOADER_URL___4___ + \") format(\\\"truetype\\\"),url(\" + ___CSS_LOADER_URL___5___ + \") format(\\\"svg\\\")}body{background:burlywood;margin:0}.container{width:100%;height:100vh;display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-flow:column nowrap}.calculator{position:relative;border:5px solid teal;border-radius:10px;background:moccasin;padding:5px;width:400px}.equationScreen{min-height:2em;font-size:2em;color:coral;text-align:left;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}.calScreen{min-height:1.5em;font-size:3em;color:indigo;text-align:right;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}button{position:relative;height:100px;width:100px;border:none;background:silver;font-family:DS-Digital,monospace,serif;font-size:2.5em;color:blueviolet;outline:2px solid blueviolet}button:hover{outline:2px solid snow;color:snow;z-index:1;cursor:crosshair}footer{text-align:center;font-size:2.5em;color:orangered;font-family:DS-Digital,monospace,serif;margin-top:2em}footer:hover{color:white;-webkit-transition:color 2s ease 0.5s;transition:color 2s ease 0.5s;cursor:not-allowed}footer a{text-decoration:none}@media only screen and (max-width: 720px){.container{-webkit-transform:scale(0.7);transform:scale(0.7)}}\\n\", \"\"]);\n"
+          "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = require(\"../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\"));\nvar ___CSS_LOADER_URL___1___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\") + \"?#iefix\");\nvar ___CSS_LOADER_URL___2___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff2\"));\nvar ___CSS_LOADER_URL___3___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff\"));\nvar ___CSS_LOADER_URL___4___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.ttf\"));\nvar ___CSS_LOADER_URL___5___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.svg\") + \"#DS-Digital\");\n// Module\nexports.push([module.id, \"@font-face{font-family:\\\"DS-Digital\\\";src:url(\" + ___CSS_LOADER_URL___0___ + \");src:url(\" + ___CSS_LOADER_URL___1___ + \") format(\\\"embedded-opentype\\\"),url(\" + ___CSS_LOADER_URL___2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL___3___ + \") format(\\\"woff\\\"),url(\" + ___CSS_LOADER_URL___4___ + \") format(\\\"truetype\\\"),url(\" + ___CSS_LOADER_URL___5___ + \") format(\\\"svg\\\")}body{background:burlywood;margin:0}.container{width:100%;height:100vh;display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-flow:column nowrap}.calculator{position:relative;border:5px solid teal;border-radius:10px;background:moccasin;padding:5px;width:400px}.equationScreen{min-height:2em;font-size:2em;color:coral;text-align:left;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}.calScreen{min-height:1.5em;font-size:3em;color:indigo;text-align:right;font-family:DS-Digital,monospace,serif;line-height:1.5;word-wrap:break-word}button{position:relative;height:100px;width:100px;border:none;background:silver;font-family:DS-Digital,monospace,serif;font-size:2.5em;color:blueviolet;outline:2px solid blueviolet}button:hover{outline:2px solid snow;color:snow;z-index:1;cursor:crosshair}footer{text-align:center;font-size:2.5em;color:orangered;font-family:DS-Digital,monospace,serif;margin-top:1em}footer:hover{color:white;-webkit-transition:color 2s ease 0.5s;transition:color 2s ease 0.5s;cursor:not-allowed}footer a{text-decoration:none}@media only screen and (max-width: 720px){.container{-webkit-transform:scale(0.6);transform:scale(0.6)}}\\n\", \"\"]);\n"
         },
         {
           "id": 2,
