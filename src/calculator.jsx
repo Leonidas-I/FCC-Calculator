@@ -30,13 +30,31 @@ class Calculator extends React.Component {
     this.handleEquals = this.handleEquals.bind(this);
     this.handleInit = this.handleInit.bind(this);
     this.handleDel = this.handleDel.bind(this);
+    this.handleKeyDown = this.handleKeyDown.bind(this);
   }
-  
+  componentDidMount() {
+    document.addEventListener('keydown', this.handleKeyDown)
+  }
+  componentWillUnmount() {
+    document.addEventListener('keydown', this.handleKeyDown)
+  }
+
+  handleKeyDown(e) {
+    if (e.keyCode === 27) {this.handleInit()}
+    if (e.keyCode === 8) {this.handleDel()}
+    if (e.keyCode === 110) {this.handleDecimal()}
+    if (e.keyCode === 13) {this.handleEquals()}
+    if (e.keyCode.toString().match(/(9[6-9])|(10[0-5])/)) {this.handleNumbers(e)}
+    if (e.keyCode.toString().match(/106|107|109|111/)) {this.handleOperators(e)}
+  }
+
   handleNumbers(e) {
     if (this.state.evaluated) {
       this.setState({
-        currentValue: e.target.value,
-        allInput: e.target.value !== '0' ? e.target.value : '',
+        currentValue: e.target.value || e.key,
+        allInput: (e.target.value || e.key) !== '0' 
+          ? (e.target.value || e.key) 
+          : '',
         evaluated: false
       });
     }
@@ -44,14 +62,14 @@ class Calculator extends React.Component {
       this.setState({
         currentValue: 
           isOperators.test(this.state.currentValue) || this.state.currentValue === '0'
-            ? e.target.value
-            : this.state.currentValue + e.target.value,
+            ? (e.target.value || e.key)
+            : this.state.currentValue + (e.target.value || e.key),
         allInput: 
-          this.state.currentValue === '0' && e.target.value === '0'
+          this.state.currentValue === '0' && (e.target.value || e.key) === '0'
             ? this.state.allInput
             : /([^.0-9]0)$/.test(this.state.allInput)
-              ? this.state.allInput.slice(0,-1) + e.target.value
-              : this.state.allInput + e.target.value
+              ? this.state.allInput.slice(0,-1) + (e.target.value || e.key)
+              : this.state.allInput + (e.target.value || e.key)
       });
     }
   }
@@ -91,31 +109,31 @@ class Calculator extends React.Component {
 
   handleOperators(e) {
     this.setState({
-      currentValue: e.target.value,
+      currentValue: (e.target.value || e.key),
       evaluated: false
     });
     if (this.state.evaluated) {
       this.setState({
-        allInput: this.state.formula + e.target.value
+        allInput: this.state.formula + (e.target.value || e.key)
       });
     }
     else if (!endByOperators.test(this.state.allInput)) {
       this.setState({
-        allInput: this.state.allInput + e.target.value,
+        allInput: this.state.allInput + (e.target.value || e.key),
         formula: this.state.allInput
         
       });
     }
     else if (!endByMinus.test(this.state.allInput)) {
       this.setState({
-        allInput: endByMinus.test(this.state.allInput + e.target.value)
-          ? this.state.allInput + e.target.value
-          : this.state.formula + e.target.value
+        allInput: endByMinus.test(this.state.allInput + (e.target.value || e.key))
+          ? this.state.allInput + (e.target.value || e.key)
+          : this.state.formula + (e.target.value || e.key)
       });
     }
     else if (e.target.value !== '-') {
       this.setState({
-        allInput: this.state.formula + e.target.value
+        allInput: this.state.formula + (e.target.value || e.key)
       });
     }
   }
