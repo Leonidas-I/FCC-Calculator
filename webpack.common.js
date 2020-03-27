@@ -1,14 +1,19 @@
 module.exports = {
   entry: {
-    main: "./src/index.jsx"
+    main: "./src/index.js"
   },
   optimization: {
     splitChunks: {
       cacheGroups: {
-        vendor: {
+        react: {
           test: /[\\/]node_modules[\\/](react|react-dom)[\\/]/,
-          name: 'vendor',
-          chunks: 'all'
+          name: "react",
+          chunks: "all"
+        },
+        styled: {
+          test: /[\\/]node_modules[\\/](styled-components|@emotion)[\\/]/,
+          name: "styled",
+          chunks: "all"
         }
       }
     },
@@ -28,15 +33,15 @@ module.exports = {
         test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
         use: [
           {
-            loader: 'file-loader',
+            loader: "file-loader",
             options: {
-              name: 'fonts/[name].[ext]'
+              name: "fonts/[name].[ext]"
             }
           }
         ]
       },
       {
-        test: /\.(js|jsx)$/,
+        test: /\.js$/,
         exclude: /node_modules/,
         use: [
           {

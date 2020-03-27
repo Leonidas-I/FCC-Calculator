@@ -1,12 +1,13 @@
 const path = require("path");
 const common = require("./webpack.common");
 const merge = require("webpack-merge");
-const {CleanWebpackPlugin} = require("clean-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const TerserWebpackPlugin = require("terser-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const WebpackBundleAnalyzer = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const WebpackBundleAnalyzer = require("webpack-bundle-analyzer")
+  .BundleAnalyzerPlugin;
 
 module.exports = merge(common, {
   mode: "production",
@@ -19,7 +20,7 @@ module.exports = merge(common, {
       new OptimizeCssAssetsPlugin(),
       new TerserWebpackPlugin(),
       new HtmlWebpackPlugin({
-        template: "./src/template.html",
+        template: "./src/index.html",
         minify: {
           removeAttributeQuotes: true,
           collapseWhitespace: true,
@@ -41,19 +42,18 @@ module.exports = merge(common, {
   module: {
     rules: [
       {
-        test: /\.scss$/,
+        test: /\.css$/,
         use: [
           MiniCssExtractPlugin.loader,
           "css-loader",
           {
-            loader: 'postcss-loader',
+            loader: "postcss-loader",
             options: {
-              plugins: function () {
-                return [require('autoprefixer')];
+              plugins: function() {
+                return [require("autoprefixer")];
               }
             }
-          },
-          "sass-loader"
+          }
         ]
       }
     ]
