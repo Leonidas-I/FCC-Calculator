@@ -1,18 +1,25 @@
 module.exports = {
   entry: {
-    main: "./src/index.js"
+    main: "./src/index.js",
   },
   optimization: {
     splitChunks: {
+      maxInitialRequests: Infinity,
+      minSize: 0,
       cacheGroups: {
         vendors: {
           test: /[\\/]node_modules[\\/]/i,
-          name: "vendors",
-          chunks: "all"
-        }
-      }
+          chunks: "all",
+          name(module) {
+            const packageName = module.context.match(
+              /[\\/]node_modules[\\/](.*?)([\\/]|$)/
+            )[1];
+            return `npm.${packageName.replace("@", "")}`;
+          },
+        },
+      },
     },
-    runtimeChunk: true
+    runtimeChunk: true,
   },
   module: {
     rules: [
@@ -20,9 +27,9 @@ module.exports = {
         test: /\.html$/,
         use: [
           {
-            loader: "html-loader"
-          }
-        ]
+            loader: "html-loader",
+          },
+        ],
       },
       {
         test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
@@ -30,20 +37,20 @@ module.exports = {
           {
             loader: "file-loader",
             options: {
-              name: "fonts/[name].[ext]"
-            }
-          }
-        ]
+              name: "fonts/[name].[ext]",
+            },
+          },
+        ],
       },
       {
         test: /\.js$/,
         exclude: /node_modules/,
         use: [
           {
-            loader: "babel-loader"
-          }
-        ]
-      }
-    ]
-  }
+            loader: "babel-loader",
+          },
+        ],
+      },
+    ],
+  },
 };

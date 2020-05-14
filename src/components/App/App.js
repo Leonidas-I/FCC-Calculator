@@ -24,7 +24,7 @@ export class App extends Component {
       currentValue: "0",
       allInput: "",
       formula: "0",
-      evaluated: false
+      evaluated: false,
     };
     this.handleNumbers = this.handleNumbers.bind(this);
     this.handleDecimal = this.handleDecimal.bind(this);
@@ -46,7 +46,7 @@ export class App extends Component {
       this.setState({
         currentValue: e.target.value,
         allInput: e.target.value !== "0" ? e.target.value : "",
-        evaluated: false
+        evaluated: false,
       });
     } else {
       this.setState({
@@ -60,7 +60,7 @@ export class App extends Component {
             ? this.state.allInput
             : /([^.0-9]0)$/.test(this.state.allInput)
             ? this.state.allInput.slice(0, -1) + e.target.value
-            : this.state.allInput + e.target.value
+            : this.state.allInput + e.target.value,
       });
     }
   }
@@ -70,7 +70,7 @@ export class App extends Component {
       this.setState({
         currentValue: "0.",
         allInput: "0.",
-        evaluated: false
+        evaluated: false,
       });
     } else if (
       endByOperators.test(this.state.allInput) ||
@@ -78,7 +78,7 @@ export class App extends Component {
     ) {
       this.setState({
         currentValue: "0.",
-        allInput: this.state.allInput + "0."
+        allInput: this.state.allInput + "0.",
       });
     } else if (
       this.state.currentValue.includes(".") ||
@@ -86,12 +86,12 @@ export class App extends Component {
     ) {
       this.setState({
         currentValue: this.state.currentValue,
-        allInput: this.state.allInput
+        allInput: this.state.allInput,
       });
     } else {
       this.setState({
         currentValue: this.state.currentValue + ".",
-        allInput: this.state.allInput + "."
+        allInput: this.state.allInput + ".",
       });
     }
   }
@@ -99,41 +99,42 @@ export class App extends Component {
   handleOperators(e) {
     this.setState({
       currentValue: e.target.value,
-      evaluated: false
+      evaluated: false,
     });
     if (this.state.evaluated) {
       this.setState({
-        allInput: this.state.formula + e.target.value
+        allInput: this.state.formula + e.target.value,
       });
     } else if (!endByOperators.test(this.state.allInput)) {
       this.setState({
         allInput: this.state.allInput + e.target.value,
-        formula: this.state.allInput
+        formula: this.state.allInput,
       });
     } else if (!endByMinus.test(this.state.allInput)) {
       this.setState({
         allInput: endByMinus.test(this.state.allInput + e.target.value)
           ? this.state.allInput + e.target.value
-          : this.state.formula + e.target.value
+          : this.state.formula + e.target.value,
       });
     } else if (e.target.value !== "-") {
       this.setState({
-        allInput: this.state.formula + e.target.value
+        allInput: this.state.formula + e.target.value,
       });
     }
   }
 
-  handleEqual() {
+  async handleEqual() {
     while (endByOperators.test(this.state.allInput)) {
       this.state.allInput = this.state.allInput.slice(0, -1);
     }
     let result =
-      Math.round(100000000000000 * eval(this.state.allInput)) / 100000000000000;
+      (await Math.round(100000000000000 * eval(this.state.allInput))) /
+      100000000000000;
     this.setState({
       currentValue: result.toString(),
       allInput: this.state.allInput + "=" + result,
       formula: result,
-      evaluated: true
+      evaluated: true,
     });
   }
 
@@ -142,7 +143,7 @@ export class App extends Component {
       currentValue: "0",
       allInput: "",
       formula: "0",
-      evaluated: false
+      evaluated: false,
     });
   }
 
@@ -151,21 +152,21 @@ export class App extends Component {
     if (this.state.evaluated) {
       this.setState({
         currentValue: this.state.currentValue,
-        allInput: this.state.allInput
+        allInput: this.state.allInput,
       });
     } else if (this.state.allInput.length === 1 || this.state.allInput === "") {
       this.setState({
         currentValue: "0",
         allInput: "",
         formula: "0",
-        evaluated: false
+        evaluated: false,
       });
     } else {
       this.setState({
         currentValue: endByOperators.test(this.state.allInput.slice(0, -1))
           ? this.state.allInput.slice(0, -1).match(/.$/)
           : this.state.allInput.slice(0, -1).match(/[.0-9]+$/),
-        allInput: this.state.allInput.slice(0, -1)
+        allInput: this.state.allInput.slice(0, -1),
       });
     }
   }
