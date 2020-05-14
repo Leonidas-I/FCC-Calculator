@@ -5,7 +5,7 @@ export const Author = () => {
   return (
     <Footer>
       Code by{" "}
-      <a href="https://github.com/Leonidas-I" target="_blank">
+      <a rel="noreferrer" href="https://github.com/Leonidas-I" target="_blank">
         Leonidas-I
       </a>{" "}
       aka Tri Phan

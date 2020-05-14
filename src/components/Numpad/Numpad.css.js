@@ -17,39 +17,39 @@ export const Button = styled.button`
     cursor: crosshair;
   }
 
-  ${props =>
+  ${(props) =>
     props.AC &&
     css`
       background-color: #00ff00;
     `}
-  ${props =>
+  ${(props) =>
     props.DEL &&
     css`
       background-color: #6495ed;
       width: 150px;
     `}
-  ${props =>
+  ${(props) =>
     props.operators &&
     css`
       background-color: #d2691e;
     `}
-  ${props =>
+  ${(props) =>
     props.equal &&
     css`
       background-color: #00ffff;
     `}
-  ${props =>
+  ${(props) =>
     props.zero &&
     css`
       background-color: #808080;
       width: 150px;
     `}
 
-  @media (min-height: 720px) {
+  @media (min-width: 720px) {
     height: 100px;
     width: 100px;
     font-size: 2.5rem;
-    ${props =>
+    ${(props) =>
       (props.DEL || props.zero) &&
       css`
         width: 200px;

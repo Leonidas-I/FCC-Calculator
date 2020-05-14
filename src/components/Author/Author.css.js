@@ -14,7 +14,7 @@ export const Footer = styled.footer`
     text-decoration: none;
   }
 
-  @media (min-height: 720px) {
+  @media (min-width: 720px) {
     font-size: 2.5rem;
   }
 `;
